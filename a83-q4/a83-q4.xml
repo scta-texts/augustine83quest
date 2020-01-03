@@ -52,7 +52,7 @@
     <body>
       <div xml:id="a83-q4">
         <head xml:id="a83-q4-Hd1e101">Quaestio 4</head>
-        <head xml:id="a83-q4-Hd1e104">Quae sit causa ut sit homo deterior</head>
+        <head xml:id="a83-q4-Hd1e104" type="question-title">Quae sit causa ut sit homo deterior</head>
         <p xml:id="a83-q4-d1e107">Ut sit homo deterior aut in ipso causa est, aut in alio aliquo, aut in nihilo. Si in
           nihilo, nulla causa est. Aut si ita accipitur in nihilo, quod homo ex nihilo factus est
           vel ex his quae ex nihilo facta sunt, rursum in ipso erit causa, quod eius quasi materies

@@ -52,7 +52,7 @@
     <body>
       <div xml:id="a83-q6">
         <head xml:id="a83-q6-Hd1e101">Quaestio 6</head>
-        <head xml:id="a83-q6-Hd1e104">De malo</head>
+        <head xml:id="a83-q6-Hd1e104" type="question-title">De malo</head>
         <p xml:id="a83-q6-d1e107">Omne quod est, aut corporeum est aut incorporeum; corporeum sensibili, incorporeum autem
           intellegibili specie continetur. Omne igitur quod est, sine aliqua specie non est. Ubi
           autem aliqua species, necessario est aliquis modus; et modus aliquid boni est. Summum ergo

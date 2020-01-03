@@ -52,7 +52,7 @@
     <body>
       <div xml:id="a83-q3">
         <head xml:id="a83-q3-Hd1e101">Quaestio 3</head>
-        <head xml:id="a83-q3-Hd1e104">Utrum Deo auctore sit homo deterior</head>
+        <head xml:id="a83-q3-Hd1e104" type="question-title">Utrum Deo auctore sit homo deterior</head>
         <p xml:id="a83-q3-d1e107">Nullo sapiente homine auctore fit homo deterior. Non enim parva ista culpa est, immo
           tanta est, quae in sapientem quemvis hominem cadere nequeat. Est autem Deus omni homine
           sapiente praestantior. Multo minus igitur Deo auctore fit homo deterior; multo enim

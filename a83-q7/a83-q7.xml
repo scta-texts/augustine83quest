@@ -52,7 +52,7 @@
     <body>
       <div xml:id="a83-q7">
         <head xml:id="a83-q7-Hd1e101">Quaestio 7</head>
-        <head xml:id="a83-q7-Hd1e104">Quae proprie in animante anima dicatur</head>
+        <head xml:id="a83-q7-Hd1e104" type="question-title">Quae proprie in animante anima dicatur</head>
         <p xml:id="a83-q7-d1e107">Anima aliquando ita dicitur, ut cum mente intellegatur, velut cum dicimus hominem ex
           anima et corpore constare; aliquando ita, ut excepta mente dicatur. Sed cum excepta mente
           dicitur, ex his operibus intellegitur quae habemus cum bestiis communia. Bestiae namque
