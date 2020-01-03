@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 68</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De eo quod scriptum est: O homo, tu quis es, qui respondeas Deo?</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q68">
+        <head xml:id="a83-q68-Hd1e102">Quaestio 68</head>
+        <head xml:id="a83-q68-Hd1e105" type="question-title">De eo quod scriptum est: O homo, tu quis es, qui respondeas
+          Deo?</head>
+        <p xml:id="a83-q68-d1e108">1. Cum videatur Apostolus corripuisse curiosos dicendo: O homo, tu quis es, qui
+          respondeas Deo? de hoc ipso illi quaestionem movent, et in ea sententia non desinunt esse
+          curiosi qua obiurgata est ipsa curiositas, et impii quidem cum contumelia, ut dicant
+          Apostolum in solvenda quaestione defecisse et obiurgasse quaerentes, quia non poterat quod
+          quaerebatur exponere. Nonnulli autem haeretici, qui non decipiunt nisi cum scientiam quam
+          non exhibent pollicentur et adversantes Legi et Prophetis quaecumque de illis Apostolus
+          sermoni suo inseruit falsa et a corruptoribus immissa esse criminantur etiam hoc inter
+          ipsa quae interpolata dicunt numerare maluerunt et negare Paulum dixisse: O homo, tu quis
+          es, qui respondeas Deo? quoniam si ipsis dicatur ad decipiendos homines calumniantibus
+          procul dubio tacebunt, nec audebunt ullam de voluntate omnipotentis Dei imperitis quos
+          decipere cupiunt scientiam polliceri. Quidam autem bona et pia mente Scripturas legentes
+          quaerunt, quid hic possit vel maledicentibus vel calumniantibus responderi. Sed nos, et
+          auctoritati apostolicae salubriter inhaerentes et libros quos catholica disciplina
+          custodit infalsatos esse nequaquam existimantes, sentiamus quod verum est: indignos et
+          infirmos esse ad intellegenda divina secreta quibus ista clauduntur, et eis murmurantibus
+          et indignantibus quod consilia Dei non discunt, cum dicere coeperint: Ergo cuius vult
+          miseretur, et quem vult obdurat. Quid adhuc conqueritur? Nam voluntati eius quis resistit?
+          : cum his ergo verbis aut calumniari Scripturis aut latebram peccatorum suorum quaerere
+          coeperint, ut praecepta contemnant quibus ad vitam bonam invitantur, respondeamus
+          fidentissime: O homo, tu quis es, qui respondeas Deo?, nec eos reveriti sanctum canibus
+          demus aut proiciamus margaritas nostras ante porcos , si tamen iam ipsi canes et porci non
+          sumus; et de meritis animarum revelante Spiritu Sancto, sublime aliquid et a vulgari
+          coniectura remotissimum vel ex parte atque in aenigmate suspicemur.</p>
+        <p xml:id="a83-q68-d1e111">2. Non enim Apostolus hoc loco sanctos prohibuit a quaerendo, sed eos qui nondum sunt in
+          caritate radicati et fundati, ut possint comprehendere cum omnibus sanctis latitudinem,
+          longitudinem, altitudinem et profundum et cetera quae in eodem loco exequitur . Non ergo
+          prohibuit a quaerendo de quibus dicit: Spiritalis autem omnia iudicat; ipse autem a nemine
+          iudicatur ; et illud praecipue: Nos autem non spiritum huius mundi accepimus, sed Spiritum
+          qui ex Deo est, ut sciamus quae a Deo donata sunt nobis . Quos ergo prohibuit nisi luteos
+          atque terrenos, qui nondum intrinsecus regenerati atque nutriti imaginem illius hominis
+          portant, qui primus factus est de terra terrenus , et quia ei a quo factus est noluit
+          obtemperare, in id lapsus est unde factus est, meruitque post peccatum audire: Terra es,
+          et in terram ibis ? Talibus igitur hominibus dicit Apostolus: O homo, tu quis es, qui
+          respondeas Deo? Numquid dicit figmentum ei qui se finxit: Quare sic me fecisti? Quamdiu
+          ergo figmentum es, nondum perfectus filius, quia nondum hausisti plenissimam gratiam, qua
+          nobis data est potestas filios Dei fieri , quo possis audire: Iam non dicam vos servos sed
+          amicos ; tu quis es, qui respondeas Deo, et velis Dei nosse consilium, qui si hominis tibi
+          aequalis nosse voluisses, imprudenter faceres, nisi prius in amicitiam recipereris? Sicut
+          ergo portavimus imaginem terreni, portemus et imaginem caelestis , exuentes nos veterem
+          hominem et induentes novum , ut non dicatur nobis quasi luteo figmento: Numquid dicit
+          figmentum ei qui se finxit: Quare sic me fecisti? </p>
+        <p xml:id="a83-q68-d1e114">3. Et ut manifestum sit non sanctificato spiritui, sed carnali luto ista dici, vide quid
+          sequitur: Aut non habet potestatem figulus luti ex eadem conspersione facere aliud quidem
+          vas in honorem, aliud in contumeliam? Ex quo ergo in paradiso natura nostra peccavit, ab
+          eadem divina providentia non secundum caelum sed secundum terram, id est, non secundum
+          spiritum sed secundum carnem, mortali generatione formamur, et omnes una massa luti facti
+          sumus, quod est massa peccati. Cum ergo meritum peccando amiserimus, et misericordia Dei
+          remota nihil aliud peccantibus nisi aeterna damnatio debeatur, quid sibi vult homo de hac
+          massa, ut Deo respondeat et dicat: Quare sic me fecisti? Si vis ista cognoscere, noli esse
+          lutum, sed efficere filius Dei per illius misericordiam, qui dedit potestatem filios Dei
+          fieri credentibus in nomine eius, non autem, quod tu cupis, antequam credant divina nosse
+          cupientibus. Merces enim cognitionis meritis redditur; credendo autem meritum comparatur.
+          Ipsa autem gratia, quae data est per fidem, nullis nostris meritis praecedentibus data
+          est. Quod est enim meritum peccatoris et impii? Christus autem pro impiis et peccatoribus
+          mortuus est , ut ad credendum non merito, sed gratia vocaremur, credendo autem etiam
+          meritum collocaremus. Peccatores igitur credere iubentur, ut a peccatis credendo
+          purgentur. Nesciunt enim quid recte vivendo visuri sint. Quapropter cum videre non possint
+          nisi recte vivant, nec recte vivere valeant nisi credant, manifestum est a fide
+          incipiendum, ut praecepta, quibus credentes a saeculo hoc avertuntur, cor mundum faciant,
+          ubi videri Deus possit. Beati enim mundo corde, quoniam ipsi Deum videbunt ; et per
+          prophetam canitur: In simplicitate cordis quaerite illum . Quapropter recte dicitur
+          hominibus in vetustate vitae manentibus et propterea tenebrosum oculum animae gerentibus:
+          O homo, tu quis es, qui respondeas Deo? Numquid dicit figmentum ei qui se finxit: Quare
+          sic me fecisti? Aut non habet potestatem figulus luti ex eadem conspersione facere aliud
+          quidem vas in honorem, aliud in contumeliam? Expurga vetus fermentum, ut sis nova
+          conspersio , et in ea ipsa non adhuc parvulus in Christo, ut lacte potandus sis , sed
+          perveni ad virum perfectum, ut sis inter illos de quibus dicitur: Sapientiam loquimur
+          inter perfectos . Tunc demum recte et non praepostere audies, si qua sunt de animarum
+          occultissimis meritis et de gratia vel iustitia secreta omnipotentis Dei.</p>
+        <p xml:id="a83-q68-d1e118">4. Nam de Pharaone facile respondetur, prioribus meritis quibus afflixit in regno suo
+          peregrinos, dignum effectum cui obduraretur cor, ut nec manifestissimis signis iubentis
+          Dei crederet. Ex eadem ergo massa, id est, peccatorum, et vasa misericordiae protulit
+          quibus subveniret, cum eum deprecarentur filii Israel, et vasa irae quorum supplicio illos
+          erudiret, id est, Pharaonem et populum eius, quia quamvis essent utrique peccatores et
+          propterea ad unam massam pertinerent, aliter tamen tractandi erant qui uni Deo
+          ingemuerant, ut eis subveniret, aliter illi quorum iniustis oneribus ingemuerant. Pertulit
+          ergo in multa patientia vasa irae, quae perfecta sunt in perditionem . Et eo ipso quo ait
+          in multa patientia satis significavit priora eorum peccata, in quibus eos pertulit, ut
+          opportune tunc vindicaret, quando de illorum vindicta subveniendum erat his qui
+          liberarentur. Et ut notas faceret divitias gloriae suae in vasa misericordiae, quae
+          praeparavit in gloriam . Hic fortasse conturbatus ad illam quaestionem redis: Cuius vult
+          miseretur, et quem vult obdurat, quid adhuc conqueritur? Voluntati enim eius quis
+          resistit? Prorsus cuius vult miseretur et quem vult obdurat; sed haec voluntas Dei iniusta
+          esse non potest. Venit enim de occultissimis meritis, quia et ipsi peccatores cum propter
+          generale peccatum unam massam fecerint, non tamen nulla est inter illos diversitas.
+          Praecedit ergo aliquid in peccatoribus, quo quamvis nondum sint iustificati, digni
+          efficiantur iustificatione, et item praecedit in aliis peccatoribus, quo digni sint
+          obtunsione. Habes eundem Apostolum alibi dicentem: Quoniam non probaverunt Deum habere in
+          notitia, dedit illos Deus in reprobum sensum . Quod eos dedit in reprobum sensum, hoc est,
+          quod induravit cor Pharaonis ; quod autem illi non probaverunt Deum habere in notitia, hoc
+          est quod digni extiterunt qui darentur in reprobum sensum.</p>
+        <p xml:id="a83-q68-d1e121">5. Tamen verum est quia non volentis neque currentis, sed miserentis est Dei . Quia
+          etiamsi levioribus quisque peccatis, aut certe quamvis gravioribus et multis, tamen magno
+          gemitu et dolore paenitendi misericordia Dei dignus fuerit, non ipsius est qui si
+          relinqueretur interiret, sed miserentis Dei qui eius precibus dolorique subvenit. Parum
+          est enim velle nisi Deus misereatur; sed Deus non miseretur, qui ad pacem vocat, nisi
+          voluntas praecesserit, quia in terra pax hominibus bonae voluntatis . Et quoniam nec velle
+          quisquam potest nisi admonitus et vocatus, sive intrinsecus ubi nullus hominum videt, sive
+          extrinsecus per sermonem sonantem aut aliqua signa visibilia, efficitur ut etiam ipsum
+          velle Deus operetur in nobis . Ad illam enim cenam, quam Dominus dicit in Evangelio
+          praeparatam, nec omnes qui vocati sunt venire voluerunt, neque illi qui venerunt venire
+          possent nisi vocarentur. Itaque nec illi debent sibi tribuere qui venerunt, quia vocati
+          venerunt; nec illi qui noluerunt venire, debent alteri tribuere, sed tantum sibi, quoniam
+          ut venirent, vocati erant in libera voluntate . Vocatio ergo ante meritum voluntatem
+          operatur. Propterea et si quisquam sibi tribuit quod venit vocatus, non sibi potest
+          tribuere quod vocatus est. Qui autem vocatus non venit, sicut non habuit meritum praemii
+          ut vocaretur, sic inchoat meritum supplicii cum vocatus venire neglexit. Ita erunt illa
+          duo: Misericordiam et iudicium cantabo tibi, Domine . Ad misericordiam pertinet vocatio;
+          ad iudicium pertinet beatitudo eorum qui venerunt vocati et supplicium eorum qui venire
+          noluerunt. Numquid ergo latebat Pharaonem, quantum boni consecutae fuerint illae terrae
+          per adventum Ioseph ? Illius ergo rei gestae cognitio, vocatio eius fuit, ut populum
+          Israel misericorditer tractans non esset ingratus. Quod autem huic vocationi obtemperare
+          noluit et exercuit crudelitatem in eis quibus humanitas et misericordia debebatur, meruit
+          poenam, ut induraretur illi cor et tantam caecitatem mentis pateretur, ut tot et tantis
+          tamque manifestis Dei signis non crederet, quo posset eius supplicio sive obdurationis
+          sive ultimae visibilis submersionis erudiri populus, cuius afflictione ille et occultae
+          obtunsionis et manifestae submersionis meritum compararet .</p>
+        <p xml:id="a83-q68-d1e124">6. Haec autem vocatio, quae sive in singulis hominibus sive in populis atque in ipso
+          genere humano per temporum opportunitates operatur, altae et profundae ordinationis est.
+          Quo pertinet etiam illud: In utero sanctificavi te ; et: Cum esses in renibus patris tui,
+          vidi te ; et: Iacob dilexi, Esau autem odio habui : cum dictum sit antequam nascerentur.
+          Nec comprehendi potest, nisi forte ab eis qui diligunt Dominum Deum suum ex toto corde et
+          ex tota anima et ex tota mente sua, et diligunt proximum tamquam se ipsos . Tanta enim
+          caritate fundati possunt iam fortasse cum sanctis comprehendere longitudinem, latitudinem,
+          altitudinem et profundum. Illud tamen constantissima fide retinendum, neque quidquam Deum
+          iniuste facere, neque ullam esse naturam quae non Deo debeat id quod est: quia Deo debetur
+          omne decus et pulchritudo et congruentia partium, quam si penitus persecutus fueris, et
+          usque ad omnes reliquias de rebus detraxeris, remanet nihil.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

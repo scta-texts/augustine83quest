@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 30</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Utrum omnia in utilitatem hominis creata sint</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q30">
+        <head xml:id="a83-q30-Hd1e102">Quaestio 30</head>
+        <head xml:id="a83-q30-Hd1e105" type="question-title">Utrum omnia in utilitatem hominis creata sint</head>
+        <p xml:id="a83-q30-d1e108">Ut inter honestum et utile interest, ita et inter fruendum et utendum. Quamquam enim omne
+          honestum utile et omne utile honestum esse subtiliter defendi queat, tamen quia magis
+          proprie atque usitatius honestum dicitur quod propter se ipsum expetendum est, utile autem
+          quod ad aliud aliquid referendum est, secundum hanc differentiam nunc loquimur, illud sane
+          custodientes ut honestum et utile nullo modo sibimet adversentur. Adversari enim haec sibi
+          aliquando imperite ac vulgariter existimantur. Frui ergo dicimur ea re de qua capimus
+          voluptatem; utimur ea quam referimus ad id unde capienda voluptas est. Omnis itaque humana
+          perversio est, quod etiam vitium vocatur, fruendis uti velle atque utendis frui; et rursus
+          omnis ordinatio, quae virtus etiam nominatur, fruendis frui et utendis uti. Fruendum est
+          autem honestis, utendum vero utilibus. Honestatem voco intellegibilem pulchritudinem, quam
+          spiritalem nos proprie dicimus, utilitatem autem divinam providentiam. Quapropter quamquam
+          sint multa pulchra visibilia, quae minus proprie honesta appellantur, ipsa tamen
+          pulchritudo, ex qua pulchra sunt quaecumque pulchra sunt, nullo modo est visibilis. Item
+          multa utilia visibilia, sed ipsa utilitas, ex qua nobis prosunt quaecumque prosunt, quam
+          divinam providentiam dicimus, visibilis non est. Notum sit sane visibilium nomine omnia
+          corporalia contineri. Oportet ergo frui pulchris invisibilibus, id est, honestis; utrum
+          autem omnibus, alia quaestio est, quamquam fortasse honesta nonnisi quibus fruendum est
+          dici deceat. Utilibus autem utendum est omnibus, ut quoquo eorum opus est. Et frui quidem
+          cibo et qualibet corporali voluptate non adeo absurde existimantur et bestiae; uti autem
+          aliqua re non potest nisi animal quod rationis est particeps. Scire namque quo quidque
+          referendum sit, non datum est rationis expertibus neque ipsis rationalibus stultis. Nec
+          uti quisque potest ea re quae quo referenda sit nescit; nec quisquam potest scire nisi
+          sapiens. Quare abuti rectius dici solent qui non bene utuntur. Non enim cuiquam prodest id
+          quo male utitur; et quod non prodest non utique utile est. Utile autem quidquid est,
+          utendo est utile; ita nemo utitur nisi utili. Non ergo utitur, quisquis male utitur.
+          Perfecta igitur hominis ratio, quae virtus vocatur, utitur primo se ipsa ad intellegendum
+          Deum, ut eo fruatur a quo etiam facta est; utitur etiam ceteris rationalibus animantibus
+          ad societatem, irrationalibus ad eminentiam. Vitam etiam suam ad id refert, ut fruatur
+          Deo; ita enim beata est. Ergo et se ipsa utitur. Quae profecto inchoat miseriam per
+          superbiam, si ad se ipsam, non ad Deum referatur. Utitur etiam corporibus quibusdam
+          vivificandis ad beneficientiam; sic enim utitur suo corpore, quibusdam assumendis vel
+          respuendis ad valetudinem, quibusdam tolerandis ad patientiam, quibusdam ordinandis ad
+          iustitiam, quibusdam considerandis ad aliquod veritatis documentum; utitur etiam his a
+          quibus se abstinet ad temperantiam. Ita omnibus et sensis et non sensis utitur nec aliquid
+          tertium est. Iudicat autem de omnibus quibus utitur; de solo Deo non iudicat, quia
+          secundum Deum de ceteris iudicat. Nec eo utitur, sed fruitur; neque enim ad aliquid aliud
+          Deus referendus est, quoniam omne quod ad aliud referendum est, inferius est quam id ad
+          quod referendum est, nec est aliquid Deo superius, non loco sed excellentia suae naturae.
+          Omnia ergo quae facta sunt, in usum hominis facta sunt, quia omnibus utitur iudicando
+          ratio, quae homini data est. Et ante lapsum quidem non utebatur tolerandis, nec post
+          lapsum utitur nisi conversus, et quamquam ante mortem corporis, iam tamen quantum potest
+          Dei amicus, quia libenter servus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 24</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Utrum et peccatum et recte factum in libero sit voluntatis arbitrio</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q24">
+        <head xml:id="a83-q24-Hd1e102">Quaestio 24</head>
+        <head xml:id="a83-q24-Hd1e105" type="question-title">Utrum et peccatum et recte factum in libero sit voluntatis
+          arbitrio</head>
+        <p xml:id="a83-q24-d1e108">Quidquid casu fit, temere fit; quidquid temere fit, non fit providentia. Si ergo casu
+          aliqua fiunt in mundo, non providentia universus mundus administratur. Si non providentia
+          universus mundus administratur, est aliqua natura atque substantia quae ad opus
+          providentiae non pertineat. Omne autem quod est, in quantum est, bonum est. Summe enim est
+          illud bonum, cuius participatione sunt bona cetera. Et omne quod mutabile est, non per se
+          ipsum, sed immutabilis boni participatione, in quantum est, bonum est. Porro illud bonum,
+          cuius participatione sunt bona cetera quantumcumque sunt non per aliud, sed per se ipsum
+          bonum est, quam divinam etiam providentiam vocamus. Nihil igitur casu fit in mundo. Hoc
+          constituto consequens videtur, ut quidquid in mundo geritur partim divinitus geratur,
+          partim nostra voluntate. Deus enim quovis homine optimo et iustissimo longe atque
+          incomparabiliter melior et iustior est. Iustus autem regens et gubernans universa nullam
+          poenam cuiquam sinit immerito infligi, nullum praemium immerito dari. Meritum autem poenae
+          peccatum, et meritum praemii recte factum est, nec peccatum aut recte factum imputari
+          cuiquam iuste potest qui nihil propria fecerit voluntate. Est igitur et peccatum et recte
+          factum in libero voluntatis arbitrio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

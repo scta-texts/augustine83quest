@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 83</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De coniugio, in eo quod Dominus ait: Si quis dimiserit uxorem suam, excepta causa
+            fornicationis, et cetera 420</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q83">
+        <head xml:id="a83-q83-Hd1e102">Quaestio 83</head>
+        <head xml:id="a83-q83-Hd1e105" type="question-title">De coniugio, in eo quod Dominus ait: Si quis dimiserit uxorem
+          suam, excepta causa fornicationis, et cetera</head>
+        <p xml:id="a83-q83-d1e108">Si Dominus dimittendae coniugis solam causam fornicationis admittit, et paganum coniugium
+          dimitti non prohibet, consequens est ut paganismus fornicatio deputetur. Solam autem
+          fornicationis causam exceptam facere Dominum, cum de dimittenda coniuge loquitur in
+          Evangelio, manifestum est. Paganum vero coniugium hinc non prohibetur dimitti, quia cum
+          Apostolus consilium de hac re daret, ut fidelis volentem secum esse coniugem infidelem non
+          dimittat, ait: Ego dico, non Dominus, ut Dominus intellegatur non quidem iubere ut
+          dimittatur, ne contra iussum eius consilium dare videatur Apostolus, sed tamen permittere,
+          ut nemo in ea re iussionis necessitate teneatur, sed consilii voluntate libere faciat.
+          Verumtamen si quisquam asserat solam illam fornicationem Dominum admittere ad causam
+          relinquendae coniugis, quae vulgo fornicatio dicitur, id est, quae concubitu illicito
+          perpetratur, hoc potest dicere: Dominum, cum de hac re loqueretur, de utroque fideli
+          dixisse, et marito et uxore, ut si ambo fideles sunt, neutri liceat alterum relinquere
+          nisi causa fornicationis, ubi non potest paganismus intellegi, quia uterque fidelis est.
+          Sic enim et Apostolus videtur distinguere, cum ait: His autem qui sunt in coniugio
+          praecipio, non ego, sed Dominus, uxorem a viro non discedere; quod si recesserit, manere
+          innuptam aut viro suo reconciliari . Ubi intellegitur quia, etiam si una illa causa qua
+          sola relectio coniugii permittitur, mulier a viro recesserit, innupta perseverare debet,
+          aut si non se continet, viro potius reconciliari vel correcto vel certe tolerando quam
+          alteri nubere. Sequitur autem et dicit: Et vir uxorem ne dimittat , breviter eamdem formam
+          intimans in viro, quam praecipiebat in femina. Quibus ex praecepto Domini insinuatis ita
+          sequitur: Ceteris autem ego dico, non Dominus: Si quis frater habet uxorem infidelem, et
+          haec consentit habitare cum illo, non dimittat illam; et si mulier habet virum infidelem,
+          et hic consentit habitare cum illa, non dimittat virum . Ubi dat intellegi Dominum de his
+          locutum, ut neuter alterum dimitteret, si fideles ambo essent.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 33</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De metu</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q33">
+        <head xml:id="a83-q33-Hd1e102">Quaestio 33</head>
+        <head xml:id="a83-q33-Hd1e105" type="question-title">De metu</head>
+        <p xml:id="a83-q33-d1e108">Nulli dubium est non aliam metuendi esse causam, nisi ne id quod amamus aut adeptum
+          amittamus aut non adipiscamur speratum. Quare quisquis hoc ipsum non metuere amaverit
+          atque habuerit, quis metus erit ne id possit amittere? Multa enim quae amamus et habemus,
+          metuimus amittere, ita ea custodimus metu. Non metuere autem nemo potest custodire
+          metuendo. Item quisquis amat non metuere atque id nondum habet speratque se habiturum, non
+          eum oportet metuere ne non adipiscatur. Hoc enim metu nihil aliud metuitur quam idem
+          metus. Porro metus omnis aliquid fugit; et nulla res se ipsam fugit. Non igitur metuitur
+          metus. Sed si quis existimat non recte dici quod metus aliquid metuat, cum anima potius
+          metu ipso metuat, illud attendat quod cognitu facile est, nullum metum esse nisi futuri et
+          imminentis mali. Necesse est autem ut qui metuit aliquid fugiat. Quisquis itaque metuere
+          metuit est profecto absurdissimus, quia fugiendo habet id ipsum quod fugit. Nam quoniam
+          non metuitur nisi ne aliquid mali accidat, metuere ne accidat metus nihil est aliud nisi
+          amplecti quod respuis. Quod si repugnans est, sicuti est, nullo prorsus modo metuit,
+          quisquis nihil aliud amat quam non metuere. Et propterea nemo potest hoc solum amare et
+          non habere. Utrum autem hoc solum amandum sit, alia quaestio est. Iam quem non exanimat
+          metus, nec cupiditas eum vastat nec aegritudo macerat nec ventilat gestiens et vana
+          laetitia. Si enim cupit, quia nihil aliud est cupiditas nisi amor rerum transeuntium,
+          metuat necesse est, ne aut amittat eas cum adeptus fuerit aut non adipiscatur. Non autem
+          metuit; non ergo cupit. Item si angitur animi dolore, necesse est etiam metu agitetur,
+          quoniam quorum malorum praesentium est anxietudo, eorum est imminentium metus. Metu autem
+          caret, ergo et anxietudine. Item si laetatur inaniter, de his rebus laetatur quas potest
+          amittere, quare metuat necesse est ne amittat. Sed nullo modo metuit; nullo modo igitur
+          laetatur inaniter.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

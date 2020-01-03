@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 53</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De auro et argento quod Israelitae ab Aegyptiis acceperunt</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q53">
+        <head xml:id="a83-q53-Hd1e102">Quaestio 53</head>
+        <head xml:id="a83-q53-Hd1e105" type="question-title">De auro et argento quod Israelitae ab Aegyptiis
+          acceperunt</head>
+        <p xml:id="a83-q53-d1e108">1. Quisquis duorum Testamentorum dispensationes pro temporum congruentia generis humani
+          aetatibus distributas diligenter intuetur, satis, quantum existimo, intellegit, quid
+          priori aetati generis humani, quid posteriori conveniat. Divina enim providentia pulchre
+          omnia moderante, ita universa generationum series ab Adam usque ad finem saeculi
+          administratur tamquam unius hominis a pueritia usque ad senectutem temporis sui tractum
+          aetatis gradibus terminantis. Et ideo virtutum etiam gradus in moribus, donec veniatur ad
+          summam hominis perfectamque virtutem, oportet eum distinguere qui divinis lectionibus pium
+          animum intendit, ne forte, cum invenerit aliquando parvis parva, aliquando maiora
+          maioribus imperari, reputans in comparatione maiorum peccata esse illa quae minora sunt,
+          non arbitretur decuisse ut talia Deus hominibus imperaret. Sed nunc de virtutum gradibus
+          nimis longum est disputare, verumtamen quod ad praesentem quaestionem discutiendam satis
+          est. Quantum ad decipiendum attinet, summa et perfecta virtus est neminem decipere atque
+          illud exhibere quod dictum est: Sit in ore vestro: est est, non non . Sed quia hoc eis
+          imperatum est, quibus iam regnum caelorum promissum est; magna autem virtus est haec
+          implere maiora, quibus debetur hoc praemium: Regnum enim caelorum vim patitur; et qui vim
+          faciunt, diripiunt illud , quaerendum est, quibus gradibus ad istam summitatem
+          perfectionemque veniatur. In quibus utique gradibus inveniuntur illi, quibus adhuc
+          terrenum regnum promittebatur, quo promisso tamquam parvuli praeluderent et ab uno Deo,
+          qui est omnium Dominus, interim terrenis gaudiis, quibus adhuc inhiabant, impetratis inde
+          proficientes et in spiritu crescentes auderent etiam sperare caelestia. Sicut ergo summa
+          et prope divina virtus est neminem decipere, sic ultimum vitium est quemlibet decipere. Ab
+          hoc ultimo vitio ad illam summam virtutem tendentibus gradus est, neminem quidem vel
+          amicum vel ignotum, sed tamen inimicum aliquando decipere. Unde illud etiam a poeta dictum
+          prope iam proverbii consuetudinem obtinuit: Dolus an virtus, quis in hoste requirat? Sed
+          quoniam et ipse hostis potest plerumque iniuste decipi, veluti cum pactum aliquod fit de
+          temporali pace, quas indutias vocant, et non servatur fides et cetera talia, multo est
+          purgatior summaeque illi virtuti propinquior qui, quamquam velit hostem decipere, non eum
+          tamen decipit nisi auctoritate divina. Deus enim novit vel solus vel certe longe quam
+          homines excellentius atque sincerius, qua quisque poena praemiove sit dignus.</p>
+        <p xml:id="a83-q53-d1e111">2. Quapropter Deus quidem per se ipsum neminem decipit; est enim Pater Veritatis et
+          Veritas et Spiritus Veritatis. Dignis tamen digna distribuens (quoniam hoc quoque pertinet
+          ad iustitiam et veritatem), utitur animis pro meritis et dignitatibus, quae sunt in
+          gradibus earum, ut si quisquam dignus est decipi, non solum per se ipsum non eum decipiat,
+          sed neque per talem hominem, qui iam congruenter diligit et custodire persistit: Sit in
+          ore vestro: est est, non non , neque per angelum cui non convenit persona fallaciae, sed
+          aut per talem hominem, qui nondum se huiusmodi cupiditatibus exuit, aut per talem angelum,
+          qui pro suae voluntatis perversitate vel ad vindictam peccatorum vel ad exercitationem
+          purgationemque eorum qui secundum Deum renascuntur in infimis naturae gradibus ordinatus
+          est. Legimus enim deceptum regem falso vaticinio pseudoprophetarum, et ita legimus, ut
+          neque sine divino iudicio factum inveniamus, quoniam dignus erat ille sic decipi neque per
+          eum angelum, quem deceptionis officium suscipere non deceret, sed per angelum erroris, qui
+          sibi ultro tales partes imponi cum laetitia postulavit . Quibusdam enim Scripturarum locis
+          apertius aliquid exponitur quod diligens et pius lector etiam in aliis locis, in quibus
+          minus aperitur, intellegat. Deus enim noster sic ad salutem animarum divinos libros Sancto
+          Spiritu moderatus est, ut non solum manifestis pascere, sed etiam obscuris exercere nos
+          vellet. Ex hac igitur ineffabili atque sublimi rerum administratione, quae fit per divinam
+          providentiam, quasi transcripta est naturalis lex in animam rationalem, ut in ipsa vitae
+          huius conversatione moribusque terrenis homines talium distributionum imagines servent.
+          Hinc est quod iudex damnatum percutere indignum sua persona et nefarium iudicat; eius
+          tamen iussu hoc facit carnifex, qui pro sua cupiditate sic ordinatus est in officio, ut
+          percutiat legum moderatione damnatum, qui posset etiam innocentem sua crudelitate
+          percutere. Nam neque per se ipsum hoc iudex facit neque per principem vel advocatum aut
+          aliquem in officio suo, cui tale ministerium non convenienter imponitur. Hinc est etiam
+          quod irrationalibus animantibus utimur ad eas res, quas per homines agi nefarium est. Nam
+          utique dignus est fur morsu lacerari; id tamen homo agit non per se ipsum aut per filium
+          aut domesticum vel etiam per famulum suum, sed per canem, quam bestiam talia facere pro
+          naturae gradibus decet. Cum igitur quosdam pati aliquid deceat, quod alios facere non
+          deceat, ministeria quaedam sunt media, quibus digna iniunguntur officia, ut eis utens ipsa
+          iustitia non solum talia pati quemque imperet, qualia pati eum decet, sed etiam his
+          facientibus, quos talia facere non minus decet. Quapropter cum et Aegyptii deceptione
+          digni essent, et populus Israel pro illa aetate generis humani in tali adhuc morum gradu
+          constitutus esset, ut non indigne hostem deciperet, factum est ut iuberet Deus, vel potius
+          pro illorum cupiditate permitteret, ut vasa aurea et argentea, quibus adhuc terreni regni
+          appetitores inhiabant, et peterent ab Aegyptiis non reddituri et acciperent quasi
+          reddituri . Quam et mercedem tam diuturni laboris atque operis pro talium animarum gradu
+          non iniustam Deus esse voluit, et poenam illorum quos digne fecit amittere id quod reddere
+          debuerunt. Non itaque Deus deceptor est, quod credere nefarium et impium esse quis non
+          intellegat?, sed meritorum et personarum iustissimus distributor, faciens quaedam per se
+          ipsum, quae illo solo digna sunt eique soli conveniunt, sicuti est illuminare animas et se
+          ipsum eis ad perfruendum praebendo sapientes beatasque praestare, alia per servientem sibi
+          creaturam integerrimis legibus pro meritis ordinatam, quaedam eorum iubens quaedam
+          permittens, usque ad passerum administrationem, sicut Dominus in Evangelio dicit, et usque
+          ad faeni decorem, usque ad numerum etiam capillorum nostrorum divina providentia
+          pertendente atque veniente. De qua etiam dictum est: Pertendit a fine usque ad finem
+          fortiter, et disponit omnia suaviter .</p>
+        <p xml:id="a83-q53-d1e114">3. Quod autem per animarum ministeria suis legibus servientia Deus puniat et dignis digna
+          supplicia retribuat, cum ipse tranquillissimus maneat, apertissime ita scriptum est: Ipsum
+          quoque qui puniri non debet,condemnare, exterum aestimas a tua virtute. Virtus enim tua
+          iustitiae initium est; et ob hoc quod omnium Dominus es, omnibus te parcere facis.
+          Virtutem enim tu ostendis, qui non crederis esse in virtute consummatus, sed in iis qui
+          sciunt audaciam traducis. Tua autem Dominus virtutum, cum tranquillitate iudicas, et cum
+          magna reverentia disponis nos .</p>
+        <p xml:id="a83-q53-d1e118">4. Item quod primo in terrenis rebus fit gradus ad caelestem iustitiam, quae iam
+          firmioribus imperatur, Dominus ostendit cum ait: Si in alieno fideles non fuistis, vestrum
+          quis dabit vobis? Et quod pro suis gradibus animae docentur, et ipse Dominus demonstrat
+          dicens: Multa habeo vobis dicere, sed nunc non potestis illa portare ; et Apostolus cum
+          ait: Et ego, fratres, non potui vobis loqui quasi spiritalibus sed quasi carnalibus. Lac
+          vobis potum dedi non escam; neque enim poteratis, sed neque adhuc potestis, adhuc enim
+          estis carnales. Quod ergo in istis secundum gradus suos actum est, hoc in universo genere
+          humano agi cognoscimus, ut alia carnali populo, alia spiritali pro temporum congruentia
+          iuberentur. Non ergo mirum si hostem decipi dignum decipere iussi sunt, qui erant adhuc
+          digni hostem decipere. Non enim iam erant idonei quibus diceretur: Diligite inimicos
+          vestros, sed tales erant quibus tantummodo dici oporteret: Diliges proximum tuum, et
+          oderis inimicum tuum . Adhuc enim ille proximus quam late intellegendus esset, non erat
+          temporis tradere. Inchoatio ergo quaedam facta est sub paedagogo, ut magistro perfectio
+          servaretur, cum tamen idem Deus et paedagogum parvulis dederit, legem illam scilicet per
+          famulum suum, et magistrum grandioribus, id est, Evangelium per Unicum suum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

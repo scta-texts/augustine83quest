@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 44</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quare tanto post venit Dominus Iesus Christus, et non in principio peccati
+            hominis?</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q44">
+        <head xml:id="a83-q44-Hd1e102">Quaestio 44</head>
+        <head xml:id="a83-q44-Hd1e105" type="question-title">Quare tanto post venit Dominus Iesus Christus, et non in
+          principio peccati hominis?</head>
+        <p xml:id="a83-q44-d1e108">Quia omne pulchrum a summa pulchritudine est, quod est Deus, temporalis autem pulchritudo
+          rebus decedentibus succedentibusque peragitur. Habet autem decorem suum in singulis
+          quibusque hominibus singula quaeque aetas ab infantia usque ad senectutem. Sicut ergo
+          absurdus est qui iuvenilem tantum aetatem vellet esse in homine temporibus subdito,
+          invideret enim ceteris pulchritudinibus, quae ceteris aetatibus suas vices atque ordinem
+          gerunt, sic absurdus est qui in ipso universo genere humano unam aetatem desiderat. Nam et
+          ipsum tamquam unus homo aetates suas agit; nec oportuit venire divinitus magistrum, cuius
+          imitatione in mores optimos formaretur, nisi tempore iuventutis. Ad hoc valet quod
+          Apostolus dicit, sub lege tamquam sub paedagogo parvulos custoditos, donec veniret cui
+          servabatur qui per Prophetas promissus erat. Aliud enim est quod divina providentia quasi
+          privatim cum singulis agit, aliud quod generi universo tamquam publice consulit. Nam et
+          quicumque singuli ad certam sapientiam pervenerunt, nonnisi ab eadem veritate suarum
+          singillatim aetatum opportunitate illustrati sunt. A qua veritate, ut populus sapiens
+          fieret, ipsius generis humani opportuna aetate homo susceptus est.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

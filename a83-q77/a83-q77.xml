@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 77</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De timore utrum peccatum sit</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q77">
+        <head xml:id="a83-q77-Hd1e102">Quaestio 77</head>
+        <head xml:id="a83-q77-Hd1e105" type="question-title">De timore utrum peccatum sit</head>
+        <p xml:id="a83-q77-d1e108">Omnis perturbatio passio, omnis cupiditas perturbatio; omnis igitur cupiditas passio.
+          Omnis autem passio, cum est in nobis, ipsa passione patimur, et in quantum passio est
+          patimur; omnis igitur cupiditas, cum est in nobis, ipsa cupiditate patimur, et in quantum
+          cupiditas est patimur. Omnis autem passio, in quantum ipsa passione patimur, non est
+          peccatum. Sic et si patimur timorem, non est peccatum. Tamquam si diceretur: Si bipes est,
+          non est pecus. Si ergo propterea hoc non est consequens, quia multa sunt pecora bipedia,
+          propterea et illud non est consequens, quia multa sunt peccata quae patimur. Hoc enim
+          contra dicitur, non esse consequens, ut si patimur timorem, ideo non sit peccatum. Tu
+          autem dicis consequens esse, ut si patimur timorem, non sit peccatum; cum tamen concedas
+          aliqua esse peccata quae patimur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

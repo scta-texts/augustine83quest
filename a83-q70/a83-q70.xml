@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 70</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De eo quod Apostolus dicit: Absorta est mors in victoriam. Ubi est, mors, contentio
+            tua? Ubi est, mors, aculeus tuus? Aculeus autem mortis peccatum, virtus autem peccati
+            lex 336</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q70">
+        <head xml:id="a83-q70-Hd1e102">Quaestio 70</head>
+        <head xml:id="a83-q70-Hd1e105" type="question-title">De eo quod Apostolus dicit: Absorta est mors in victoriam. Ubi
+          est, mors, contentio tua? Ubi est, mors, aculeus tuus? Aculeus autem mortis peccatum,
+          virtus autem peccati lex 336</head>
+        <p xml:id="a83-q70-d1e108">Quaeri solet quid sit: Tunc fiet illud quod scriptum est: Absorta est mors in victoriam.
+          Ubi est, mors, contentio tua? Ubi est, mors, aculeus tuus? Aculeus autem mortis peccatum,
+          virtus autem peccati lex. Mortem significari arbitror hoc loco carnalem consuetudinem,
+          quae resistit bonae voluntati delectatione temporalium fruendorum. Non enim diceretur: Ubi
+          est, mors, contentio tua? si non restitisset et repugnasset. Ipsius contentio etiam illo
+          loco describitur: Caro concupiscit adversus spiritum, spiritus adversus carnem. Haec enim
+          sibi invicem adversantur, ut non quae vultis faciatis . Fit ergo per sanctificationem
+          perfectam, ut omnis carnalis appetitus spiritui nostro illuminato et vivificato, id est,
+          bonae voluntati, subiciatur. Et sicut nunc videmus multis puerilibus delectationibus nos
+          carere, quae nos pueros si denegarentur acerrime cruciabant, ita credendum est de omni
+          carnali delectatione futurum esse cum perfecta sanctitas totum hominem reparaverit. Nunc
+          autem, quamdiu est in nobis quod resistat bonae voluntati, auxilio Dei per bonos homines
+          et bonos angelos indigemus, ut donec sanetur vulnus nostrum non ita molestet ut perimat
+          etiam bonam voluntatem. Hanc autem mortem peccato meruimus quod peccatum erat ante
+          omnimodo in libero arbitrio, cum in paradiso nullus dolor denegatae delectationis
+          voluntati bonae hominis resistebat sicuti nunc. Verbi gratia, si quisquam existat quem
+          numquam venatio delectavit, omnimodo liber est utrum venari velit an nolit, nec eum
+          cruciat quisquis hoc prohibet. At si ista libertate male usus venatus fuerit contra
+          prohibentis imperium, paulatim subrepens delectatio mortificat animam, ut si se abstinere
+          velit, sine molestia et angore non possit, cum id ante tota sanitate non ageret. Ergo
+          aculeus mortis peccatum est, quia peccato facta est delectatio quae iam possit resistere
+          bonae voluntati et cum dolore cohiberi. Quam delectationem, quia in defectu est animae
+          deterioris effectae, iure mortem vocamus. Virtus autem peccati lex est, quia multo
+          sceleratius et flagitiosius quae lex prohibet committuntur, quam si nulla lege
+          prohiberentur. Tunc itaque absorta erit mors in victoriam, cum per sanctificationem in
+          omni hominis parte perfecta delectatione spiritalium delectatio carnalis obruetur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

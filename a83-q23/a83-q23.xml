@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 23</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De Patre et Filio</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q23">
+        <head xml:id="a83-q23-Hd1e102">Quaestio 23</head>
+        <head xml:id="a83-q23-Hd1e105" type="question-title">De Patre et Filio</head>
+        <p xml:id="a83-q23-d1e108">Omne castum castitate castum est, et omne aeternum aeternitate aeternum est, et omne
+          pulchrum pulchritudine, et omne bonum bonitate. Ergo et omne sapiens sapientia, et omne
+          simile similitudine. Sed duobus modis castum castitate dicitur: vel quod eam gignat, ut ea
+          sit castum castitate quam gignit et cui principium atque causa est ut sit; aliter autem
+          cum participatione castitatis quidque castum est, quod potest aliquando esse non castum;
+          atque ita de ceteris intellegendum. Nam et anima aeternitatem vel intellegitur vel
+          creditur consequi, sed aeterna aeternitatis participatione fit. Non autem ita aeternus
+          Deus, sed quod ipsius aeternitatis est auctor. Hoc et de pulchritudine et de bonitate
+          licet intellegi. Quamobrem cum sapiens Deus dicitur et ea sapientia sapiens dicitur, sine
+          qua eum vel fuisse aliquando vel esse posse nefas est credere, non participatione
+          sapientiae sapiens dicitur sicuti anima, quae et esse et non esse sapiens potest, sed quod
+          eam ipse genuerit, qua sapiens dicitur, sapientiam. Item illa quae participatione sunt vel
+          casta vel aeterna vel pulchra vel bona vel sapientia recipiunt, ut dictum est, ut possint
+          nec casta esse nec aeterna nec pulchra nec bona nec sapientia. At ipsa castitas,
+          aeternitas, pulchritudo, bonitas, sapientia nullo modo recipiunt aut corruptionem aut, ut
+          ita dicam, temporalitatem aut turpitudinem aut malitiam. Ergo etiam illa quae
+          participatione similia sunt recipiunt dissimilitudinem. At ipsa similitudo nullo modo ex
+          aliqua parte potest esse dissimilis. Unde fit ut cum similitudo Patris Filius dicitur,
+          (quia eius participatione similia sunt quaecumque sunt vel inter se vel Deo similia; ipsa
+          est enim species prima, qua sunt, ut ita dicam, speciata, et forma, qua formata sunt
+          omnia), ex nulla parte Patri potest esse dissimilis. Idem igitur quod Pater, ita ut iste
+          Filius sit ille Pater, id est, iste similitudo, ille cuius similitudo est; iste
+          substantia, ille substantia, ex quo una substantia. Nam si non una, recipit
+          dissimilitudinem similitudo, quod fieri posse omnis verissima negat ratio.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

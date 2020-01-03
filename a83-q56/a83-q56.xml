@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 56</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De annis quadraginta sex aedificati templi</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q56">
+        <head xml:id="a83-q56-Hd1e102">Quaestio 56</head>
+        <head xml:id="a83-q56-Hd1e105" type="question-title">De annis quadraginta sex aedificati templi</head>
+        <p xml:id="a83-q56-d1e108">Sex, novem, duodecim, decem et octo, haec in unum fiunt quadraginta quinque. Adde ergo
+          ipsum unum, fiunt quadraginta sex; hoc sexies fiunt ducenti septuaginta sex. Dicitur autem
+          conceptio humana sic procedere et perfici, ut primis sex diebus quasi lactis habeat
+          similitudinem, sequentibus novem diebus convertatur in sanguinem, deinde duodecim diebus
+          solidetur, reliquis decem et octo formetur usque ad perfecta lineamenta omnium membrorum,
+          et hinc iam reliquo tempore usque ad tempus partus magnitudine augeatur. Quadraginta ergo
+          quinque dies addito uno, quod significat summam, quia sex et novem et duodecim et decem et
+          octo in unum coacti fiunt quadraginta quinque: addito ergo, ut dictum est, uno fiunt
+          quadraginta sex. Qui cum fuerint multiplicati per ipsum senarium numerum, qui huius
+          ordinationis caput tenet, fiunt ducenti septuaginta sex, id est, novem menses et sex dies,
+          qui computantur ab octavo calendas aprilis, quo die conceptus Dominus creditur, quia eodem
+          die etiam passus est, usque ad octavum calendas ianuarias, quo die natus est. Non ergo
+          absurde quadraginta sex annis dicitur fabricatum esse templum, quod corpus eius
+          significabat , ut quot anni fuerunt in fabricatione templi, tot dies fuerint in corporis
+          dominici perfectione.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

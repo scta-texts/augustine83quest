@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 75</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De hereditate Dei</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q75">
+        <head xml:id="a83-q75-Hd1e102">Quaestio 75</head>
+        <head xml:id="a83-q75-Hd1e105" type="question-title">De hereditate Dei</head>
+        <p xml:id="a83-q75-d1e108">1. Sicut Apostolus ad Hebreos dicit: Testamentum testatoris morte firmatur ; propterea
+          mortuo pro nobis Christo Novum Testamentum firmatum esse asserit, cuius similitudo Vetus
+          Testamentum erat, in quo mors testatoris per victimam praefigurabatur. Si ergo quaeratur,
+          quomodo simus secundum verba eiusdem Apostoli coheredes Christi et filii atque heredes Dei
+          , cum etiam hereditas morte decessoris firma teneatur, nec ullo alio modo hereditas possit
+          intellegi: respondetur, ipso quidem mortuo factos nos esse heredes, quoniam filii etiam
+          eius dicti sumus: Non ieiunant, inquit, filii sponsi, quamdiu cum illis est sponsus .
+          Heredes ergo eius dicimur, quia reliquit nobis pacis ecclesiasticae possessionem per fidem
+          temporalis dispensationis, quam in hac vita possidemus, quod testatus est dicens: Pacem
+          meam do vobis, pacem relinquo vobis . Coheredes autem eius efficiemur, cum in fine saeculi
+          absorbebitur mors in victoriam . Tunc enim similes ei erimus quoniam videbimus eum sicuti
+          est . Quam hereditatem non eius Patris morte adipiscimur, qui mori non potest, quando
+          quidem ipse fit hereditas nostra, secundum illud quod scriptum est: Dominus pars
+          hereditatis meae , sed quoniam cum vocati sumus adhuc parvuli et ad spiritalia
+          contemplanda minus idonei, usque ad humillimas nostras cogitationes se divina misericordia
+          porrexit, ut quomodocumque cernere niteremur quod non evidenter atque perspicue
+          cernebamus, idipsum moritur quod in aenigmate cernebamus, cum facie ad faciem cernere
+          coeperimus. Convenienter enim dicitur moriturum esse quod auferetur: Cum autem venerit
+          quod perfectum est, auferetur quod ex parte est . Ita nobis quodammodo moritur Pater in
+          aenigmate, et idem ipse fit hereditas, cum facie ad faciem videtur, non quia ipse moritur,
+          sed imperfecta in eum nostra visio perfecta visione perimitur; et tamen nisi illa prior
+          nos nutriret, ad aliam plenissimam et evidentissimam non efficeremur idonei.</p>
+        <p xml:id="a83-q75-d1e111">2. Quod si etiam de Domino Iesu Christo non secundum Verbum in principio Deum apud Deum ,
+          sed secundum puerum qui proficiebat aetate ac sapientia , pius intellectus admittit,
+          propria illa susceptione servata, quae communis ei cum ceteris hominibus non est, cuius
+          tamquam morte possideat hereditatem, manifestum est. Non enim nos coheredes eius esse
+          possumus, nisi et ipse heres sit. Si autem hoc pietas non admittit, ut primo ex parte
+          videret homo Dominicus, deinde ex toto quamquam in sapientia proficere dictus sit, in
+          corpore suo intellegatur heres, id est, in Ecclesia, cuius coheredes sumus, quemadmodum
+          filii eius matris dicimur, quamvis ex nobis constet.</p>
+        <p xml:id="a83-q75-d1e114">3. Sed rursum quaeri potest, cuius morte facti simus etiam nos hereditas Dei, secundum
+          illud: Dabo tibi Gentes hereditatem tuam , nisi forte huius mundi, quo prius tamquam
+          dominante tenebamur. Post autem, cum dicimus: Mihi mundus crucifixus est, et ego mundo,
+          possidet nos Christus, mortuo illo qui nos possidebat; cum ei renuntiamus, morimur illi et
+          ipse nobis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

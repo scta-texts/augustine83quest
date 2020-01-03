@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 29</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Utrum aliquid sit sursum aut deorsum universo</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q29">
+        <head xml:id="a83-q29-Hd1e102">Quaestio 29</head>
+        <head xml:id="a83-q29-Hd1e105" type="question-title">Utrum aliquid sit sursum aut deorsum universo</head>
+        <p xml:id="a83-q29-d1e108">Quae sursum sunt sapite. Ea quae sursum sunt sapere iubemur, spiritalia scilicet, quae
+          non locis et partibus huius mundi sursum esse intellegenda sunt sed merito excellentiae
+          suae, ne in eius mundi parte figamus animum nostrum, quo universo nos debemus exuere.
+          Sursum autem ac deorsum in eius partibus est. Nam universus nec ipse habet sursum ac
+          deorsum; corporeus est enim, quia omne visibile corporeum est, nihil autem in universo
+          corpore sursum ac deorsum est. Cum enim in sex partes motus fieri videatur qui rectus
+          dicitur, id est, qui circularis non est, in anteriora et posteriora, in dexteriora et
+          sinisteriora, in superiora et inferiora, nulla omnino ratio est, cur universo corpori ante
+          ac post nihil sit et dextera ac laeva, sit autem sursum ac deorsum. Sed eo considerantes
+          decipiuntur, quod sensibus et consuetudini difficile obsistitur. Non enim tam facilis est
+          nobis conversio corporis quae fit, si quis capite deorsum moveri velit, quam facilis est a
+          dextra in laevam vel ab anteriore in posteriorem partem. Quamobrem remotis verbis secum
+          ipsi animo satagendum est, ut hoc cernere valeat.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

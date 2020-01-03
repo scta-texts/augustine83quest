@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 76</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De eo quod Iacobus apostolus dicit: Vis autem scire, o homo inanis, quia fides sine
+            operibus otiosa est? 366</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q76">
+        <head xml:id="a83-q76-Hd1e102">Quaestio 76</head>
+        <head xml:id="a83-q76-Hd1e105" type="question-title">De eo quod Iacobus apostolus dicit: Vis autem scire, o homo
+          inanis, quia fides sine operibus otiosa est? 366</head>
+        <p xml:id="a83-q76-d1e108">1. Quoniam Paulus apostolus praedicans iustificari hominem per fidem sine operibus, non
+          bene intellectus est ab eis qui sic acceperunt dictum, ut putarent, cum semel in Christum
+          credidissent, etiamsi male operarentur et facinorose flagitioseque viverent, salvos se
+          esse posse per fidem, locus iste huius Epistulae eumdem sensum Pauli apostoli, quomodo sit
+          intellegendus, exponit . Ideoque Abrahae magis exemplo utitur, <unclear>ut
+            demonstraret</unclear> vacuam esse fidem, si non bene operetur, quoniam Abrahae exemplo
+          etiam Paulus apostolus usus est, ut probaret iustificari hominem per fidem sine operibus
+          legis . Cum enim bona opera commemorat Abrahae, quae eius fidem comitata sunt, satis
+          ostendit apostolum Paulum non ita per Abraham docere iustificari hominem per fidem sine
+          operibus, ut si quis crediderit, non ad eum pertineat bene operari, sed ad hoc potius, ut
+          nemo arbitretur meritis priorum bonorum operum se pervenisse ad donum iustificationis,
+          quae est in fide. In hoc enim se Gentibus in Christum credentibus Iudaei praeferre
+          cupiebant, quod dicebant se meritis bonorum operum quae in lege sunt ad evangelicam
+          gratiam pervenisse; ideoque scandalizabantur multi qui ex eis crediderant, quod
+          incircumcisis Gentibus Christi gratia traderetur. Unde apostolus Paulus dicit posse
+          hominem sine operibus praecedentibus iustificari per fidem. Nam iustificatus per fidem
+          quomodo potest nisi iuste deinceps operari, quamvis antea nihil iuste operatus ad fidei
+          iustificationem pervenerit non merito bonorum operum sed gratia Dei, quae vacare in illo
+          non potest, cum iam per dilectionem bene operatur? Quod si cum crediderit mox de hac vita
+          decesserit, iustificatio fidei manet cum illo, nec praecedentibus bonis operibus, quia non
+          merito ad illam sed gratia pervenit, nec consequentibus, quia in hac vita esse non
+          sinitur. Unde manifestum est quod Paulus apostolus dicit: Arbitramur enim iustificari
+          hominem per fidem sine operibus . Non tamen ita intellegendum est, ut accepta fide, si
+          vixerit, dicamus eum iustum, etiamsi male vixerit. Ideo exemplo Abrahae et apostolus
+          Paulus utitur, quia sine operibus legis, quam non acceperat, per fidem iustificatus est,
+          et Iacobus, quia fidem ipsius Abrahae opera bona consecuta esse demonstrat, ostendens
+          quemadmodum intellegendum sit quod Paulus apostolus praedicavit.</p>
+        <p xml:id="a83-q76-d1e114">2. Nam qui putant istam Iacobi apostoli sententiam contrariam esse illi Pauli apostoli
+          sententiae, possunt arbitrari etiam ipsum Paulum sibi esse contrarium, quia dicit alio
+          loco: Non enim auditores legis iusti sunt apud Deum, sed factores legis iustificabuntur ;
+          et alio loco: Sed fides quae per dilectionem operatur . Et iterum: Si enim secundum carnem
+          vixeritis moriemini; si autem spiritu facta carnis mortificaveritis, vivetis . Quae sint
+          autem facta carnis, quae operibus spiritalibus mortificanda sunt, alio loco demonstrat
+          dicens: Manifesta autem sunt opera carnis, quae sunt fornicationes, immunditiae, idolorum
+          servitus, veneficia, inimicitiae, contentiones, aemulationes, animositates, dissensiones,
+          hereses, invidiae, ebrietates, commesationes, et his similia; quae praedico vobis, sicut
+          praedixi quoniam qui talia agunt regnum Dei non possidebunt ; et ad Corinthios: Nolite
+          errare: neque fornicatores, neque idolis servientes, neque adulteri, neque molles, neque
+          masculorum concubitores, neque fures, neque avari, neque ebriosi, neque maledici, neque
+          rapaces regnum Dei possidebunt. Et haec quidem fuistis; sed abluti estis, sed sanctificati
+          estis, sed iustificati estis in nomine Domini nostri Iesu Christi, et in Spiritu Dei
+          nostri . Quibus sententiis manifestissime docet non eos praeterito bono opere ad fidei
+          iustificationem pervenisse; nec meritis eorum istam gratiam datam, quando dicit: Et haec
+          quidem fuistis. Sed cum dicit: Qui talia agunt regnum Dei non possidebunt; satis ostendit,
+          iam ex quo crediderunt bene operari debere. Quod et Iacobus dicit, et multis omnino locis
+          idem apostolus Paulus satis aperteque praedicat, recte vivendum omnibus qui in Christum
+          crediderunt, ne ad poenas perveniant. Quod et Dominus ipse commemorat dicens: Non omnis
+          qui dicit mihi: Domine, Domine, intrabit in regnum caelorum; sed qui facit voluntatem
+          Patris mei qui in caelis est, ipse intrabit in regnum caelorum ; et alibi: Ut quid mihi
+          dicitis: Domine, Domine, et non facitis quae dico vobis? ; et: Omnis qui audit verba mea
+          haec et facit ea, similabo eum viro prudenti, qui aedificavit domum suam supra petram, et
+          cetera. Et qui audit verba mea haec et non facit ea, similabo eum viro stulto, qui
+          aedificavit domum suam super arenam et cetera. Quapropter non sunt sibi contrariae duorum
+          apostolorum sententiae Pauli et Iacobi, cum dicit unus iustificari hominem per fidem sine
+          operibus, et alius dicit inanem esse fidem sine operibus, quia ille dicit de operibus quae
+          fidem praecedunt, iste de his quae fidem sequuntur, sicut etiam ipse Paulus multis locis
+          ostendit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

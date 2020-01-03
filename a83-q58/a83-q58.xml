@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 58</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De Ioanne Baptista</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q58">
+        <head xml:id="a83-q58-Hd1e102">Quaestio 58</head>
+        <head xml:id="a83-q58-Hd1e105" type="question-title">De Ioanne Baptista</head>
+        <p xml:id="a83-q58-d1e108">1. Ioannes Baptista, considerata Scriptura quae de illo in Evangelio legitur, multis
+          probabilibus documentis non absurde creditur prophetiae gestare personam, et eo maxime
+          quod de illo Dominus dicit: Plus quam propheta . Hic siquidem totius prophetiae, quae ab
+          exordio generis humani usque ad adventum Domini de Domino facta est, imaginem gestat. Est
+          autem Evangelii persona in ipso Domino, quae per prophetiam praenuntiabatur, cuius augetur
+          praedicatio per universum orbem terrarum ab ipso Domini adventu, prophetia autem minuitur
+          postquam id quod praenuntiabat advenit. Itaque Dominus dicit: Lex et prophetae usque ad
+          Ioannem Baptistam; abhinc regnum Dei praedicatur ; et Iohannes ipse: Illum, inquit,
+          oportet crescere, me autem minui . Quod et diebus quibus nati sunt et mortibus quibus
+          passi sunt figuratum est. Nascitur namque Ioannes ex quo dies incipiunt minui; nascitur
+          Dominus ex quo dies incipiunt crescere. Capite ille minuitur dum occiditur, hic vero
+          attollitur cruce. Postquam ergo prophetia ipsa in Ioanne constituta digito ostendit
+          praesentem, quem venturum ab exordio generis humani cecinerat, incipit minui, atque inde
+          crescere praedicatio regni Dei. Et ideo baptizavit Iohannes in poenitentiam ; finitur enim
+          vetus vita usque ad poenitentiam, atque inde incipit nova.</p>
+        <p xml:id="a83-q58-d1e111">2. Non autem tantum in his qui proprie prophetae appellati sunt, sed in ipsa historia
+          Veteris Testamenti prophetia non silere colligitur ab eis qui pie quaerunt, et ad haec
+          investiganda divinitus adiuvantur. Maxime tamen illis evidentioribus rerum figuris
+          apparet: quod Abel iustus a fratre interficitur et Dominus a Iudaeis; quod arca Noe
+          tamquam in diluvio saeculi Ecclesia gubernatur; quod Isaac immolandus ducitur, et aries
+          pro illo in sentibus tamquam crucifixus agnoscitur ; quod in duobus Abrahae filiis, uno de
+          ancilla altero de libera, duo Testamenta intelleguntur ; quod duo populi in geminis Esau
+          et Iacob praemonstrantur ; quod Ioseph a fratribus persecutionem passus ab alienis
+          honoratur , sicut Dominus a Iudaeis persequentibus occisus apud Gentes clarificatus est.
+          Longum est singula commemorare, cum ita concludat Apostolus et dicat: Haec autem in figura
+          contingebant eis; scripta sunt autem propter nos, in quos finis saeculorum devenit . Finis
+          autem saeculorum tamquam senectus veteris hominis, cum totum genus humanum tamquam unum
+          hominem constitueris, sexta aetate signatur, qua Dominus venit. Sunt enim aetates sex
+          etiam in uno homine: infantia, pueritia, adolescentia, iuventus, gravitas et senectus.
+          Prima itaque generis humani aetas est ab Adam usque ad Noe, secunda a Noe usque ad
+          Abraham, qui articuli evidentissimi sunt et notissimi, tertia ab Abraham usque ad David,
+          sic enim Matthaeus evangelista partitur ; quarta a David usque ad transmigrationem in
+          Babyloniam; quinta a transmigratione in Babyloniam usque ad adventum Domini. Sexta ab
+          adventu Domini usque ad finem saeculi speranda est, qua exterior homo tamquam senectute
+          corrumpitur, qui etiam vetus dicitur, et interior renovatur de die in diem . Inde requies
+          sempiterna est, quae significatur sabbato. Huic rei congruit quod homo sexto die factus
+          est ad imaginem et similitudinem Dei . Nemo autem ignorat hominum vitam iam aliquid
+          administrantem cognitione et actione fulciri. Nam et actio temeraria est sine cognitione
+          et sine actione ignava cognitio. Sed prima vita hominis, cui nulla administratio recte
+          creditur, quinque corporis sensibus dedita est, qui sunt visus, auditus, olfactus, gustus,
+          tactus. Et ideo primae duae aetates generis humani denis generationibus definiuntur,
+          tamquam infantia et pueritia, quinario scilicet geminato, quoniam generatio utroque sexu
+          propagatur. Sunt ergo generationes decem ab Adam usque ad Noe, et inde usque ad Abraham
+          aliae decem, quas duas aetates infantiam et pueritiam generis humani esse diximus.
+          Adolescentia vero et iuventus et gravitas, id est, ab Abraham usque ad David, et inde
+          usque ad transmigrationem in Babyloniam, et inde usque ad adventum Domini, quattuor denis
+          generationibus figurantur, septenario geminato ad eamdem rationem utriusque sexus, cum
+          quinario, qui est in sensibus corporis, actio et cognitio addita fuerit. Senectus autem
+          solet etiam tantum tenere temporis, quantum reliquae omnes aetates. Nam cum a sexagesimo
+          anno senectus dicatur incipere, et possit humana vita usque ad centum viginti annos
+          pervenire, manifestum est solam senectutem posse tam longam esse quam omnes priores
+          aetates. Aetas igitur ultima generis humani, quae incipit a Domini adventu usque ad finem
+          saeculi, quibus generationibus computetur incertum est. Et hoc utiliter latere Deus
+          voluit, sicut in Evangelio scriptum est , et Apostolus attestatur dicens diem Domini
+          tamquam furem nocte esse venturum .</p>
+        <p xml:id="a83-q58-d1e114">3. Sed tamen sexta aetate visitatum esse genus humanum humili Domini adventu superius
+          distinctis generationibus edocetur. Qua visitatione incipit manifestari prophetia, quae
+          superioribus quinque aetatibus latebat. Cuius prophetiae personam quoniam Iohannes
+          gestabat, ut supra dictum est, ideo ex senibus parentibus nascitur, tamquam senescente
+          saeculo prophetia illa innotescere incipiat, et quinque mensibus se occultat mater eius,
+          sicut scriptum est: Occultabat se Elisabeth mensibus quinque . Sexto autem mense visitatur
+          a Maria matre Domini, et exultat infans in utero, tamquam primo adventu Domini, quo in
+          humilitate dignatus est apparere, prophetia manifestari incipiat, sed tamquam in utero, id
+          est, nondum tam evidenter, ut omnes sicut in luce manifestam esse fateantur, quod futurum
+          credimus secundo adventu Domini, quo in claritate venturus est, cuius adventus praecursor
+          speratur Helias, sicut huius Ioannes fuit. Et ideo dicitur a Domino: Helias iam venit, et
+          multa ei homines fecerunt; et, si vultis scire, ipse est Iohannes Baptista, qui venturus
+          est. Quia in eodem spiritu et in eadem virtute, tamquam praecedentis praeconis officio, et
+          hic iam venit et ille venturus est. Propterea et istum Ioannem per spiritum, quo pater
+          eius vates impletus est, dicitur praecursorem Domini futurum in spiritu et virtute Heliae
+          . Peractis autem Maria cum Elisabeth mensibus tribus discedit. Quo numero mihi videtur
+          significari fides Trinitatis et Baptisma in nomine Patris et Filii et Spiritus Sancti, quo
+          per humilem Domini adventum genus humanum imbuitur et futuro adventu claritatis eius
+          excolitur.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

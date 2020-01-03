@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 65</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De resurrectione Lazari 174</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q65">
+        <head xml:id="a83-q65-Hd1e102">Quaestio 65</head>
+        <head xml:id="a83-q65-Hd1e105" type="question-title">De resurrectione Lazari 174</head>
+        <p xml:id="a83-q65-d1e108">Quamquam secundum evangelicam historiam resuscitatum Lazarum plena fide teneamus, tamen
+          et in allegoria significare aliquid non dubito; neque cum res factae allegorizantur,
+          gestae rei fidem amittunt, sicut cum duorum filiorum Abrahae allegoriam Paulus exponit duo
+          esse Testamenta . Numquid ideo aut Abraham non fuit, aut illos filios non habuit? Ergo et
+          in allegoria accipiamus Lazarum in monumento animam terrenis peccatis obrutam, id est,
+          omne humanum genus, quam alio loco Dominus ovem perditam significat propter quam
+          liberandam relictis nonaginta novem in montibus descendisse se dicit . Quod autem
+          interrogat dicens: Ubi eum posuistis?, vocationem nostram, quae fit in occulto, arbitror
+          significare; praedestinatio enim nostrae vocationis occulta est. Cuius secreti signum est
+          interrogatio Domini quasi nescientis, cum ipsi nesciamus; sicut dicit Apostolus: Ut
+          cognoscam, sicut et cognitus sum ; vel quod ignorare se peccatores alio loco Dominus
+          ostendit dicens: Non novi vos , quod significabat Lazarus sepultus, quia in disciplina et
+          praeceptis eius non sunt peccata. Huic interrogationi simile est illud in Genesi: Adam,
+          ubi es? , quoniam peccaverat et se absconderat a facie Dei. Quam occultationem hic
+          sepultura significat, ut peccantis habeat similitudinem moriens, sepultus absconditi a
+          facie Dei. Auferte autem lapidem quod ait, illos puto significare qui venientibus ad
+          Ecclesiam ex Gentibus onus circumcisionis imponere volebant, contra quos multipliciter
+          scribit Apostolus , vel eos qui in Ecclesia corrupte vivunt et offensioni sunt credere
+          volentibus. Dicit illi Martha: Domine, iam quarta dies est et putet . Ultimum quattuor
+          elementorum terra est, significat ergo putorem terrenorum peccatorum, id est, cupiditatum
+          carnalium. Terra, enim, es, inquit Dominus Adae cum peccasset, et in terram ibis . Et
+          sublato lapide exiit de monumento involutis manibus et pedibus, et facies eius tecta erat
+          sudario. Quod autem exiit de monumento, animam significat recedentem a carnalibus vitiis,
+          quod vero institis obvolutus hoc est quod etiam a carnalibus recedentes et mente
+          servientes legi Dei, adhuc tamen in corpore constituti, alieni a molestiis carnis esse non
+          possumus, dicente Apostolo: Mente servio legi Dei, carne autem legi peccati . Quod autem
+          facies eius sudario tecta erat, hoc est quod in hac vita plenam cognitionem habere non
+          possumus, sicut Apostolus dicit: Nunc videmus per speculum in aenigmate, postea autem
+          facie ad faciem . Et quod dixit Iesus: Solvite eum et sinite ire , hoc est quod post hanc
+          vitam auferuntur omnia velamenta, ut facie ad faciem videamus. Quantum autem intersit
+          inter hominem quem Dei sapientia gestabat, per quem liberati sumus, et ceteros homines,
+          hinc intellegitur quod Lazarus nisi exiens de monumento non solvitur, id est, etiam renata
+          anima nisi resolutione corporis libera ab omni peccato et ignorantia esse non potest,
+          quamdiu per speculum in aenigmate videt; Domini autem linteamina et sudarium, qui peccatum
+          non fecit et nihil ignoravit, in monumento inventa sunt . Ipse enim solus in carne non
+          tantum monumento non est oppressus, ut aliquod peccatum in eo inveniretur , sed nec
+          linteis implicatus, ut eum aliquid lateret aut ab itinere retardaret.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

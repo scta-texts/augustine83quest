@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 74</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De eo quod scriptum est in Epistula Pauli ad Colossenses: In quo habemus
+            redemtionem et remissionem peccatorum qui est imago Dei invisibilis 352</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q74">
+        <head xml:id="a83-q74-Hd1e102">Quaestio 74</head>
+        <head xml:id="a83-q74-Hd1e105" type="question-title">De eo quod scriptum est in Epistula Pauli ad Colossenses: In quo
+          habemus redemtionem et remissionem peccatorum qui est imago Dei invisibilis 352</head>
+        <p xml:id="a83-q74-d1e108">Imago et aequalitas et similitudo distinguenda sunt: quia ubi imago, continuo similitudo,
+          non continuo aequalitas; ubi aequalitas, continuo similitudo, non continuo imago; ubi
+          similitudo, non continuo imago, non continuo aequalitas. Ubi imago, continuo similitudo,
+          non continuo aequalitas: ut in speculo est imago hominis; quia de illo expressa est, est
+          etiam necessario similitudo, non tamen aequalitas, quia multa desunt imagini, quae insunt
+          illi rei de qua expressa est. Ubi aequalitas, continuo similitudo, non continuo imago:
+          velut in duobus ovis paribus, quia inest aequalitas, inest et similitudo; quaecumque enim
+          adsunt uni, adsunt et alteri; imago tamen non est, quia neutrum de altero expressum est.
+          Ubi similitudo, non continuo imago non continuo aequalitas; omne quippe ovum omni ovo, in
+          quantum ovum est, simile est; sed ovum perdicis, quamvis in quantum ovum est, simile sit
+          ovo gallinae, nec imago tamen eius est, quia non de illo expressum est, nec aequale, quia
+          et brevius est et alterius generis animantium. Sed ubi dicitur non continuo, utique
+          intellegitur quia esse aliquando potest. Potest ergo esse aliqua imago in qua sit etiam
+          aequalitas, ut in parentibus et filiis inveniretur imago et aequalitas et similitudo, si
+          intervallum temporis defuisset; nam et de parente expressa est similitudo filii, ut recte
+          imago dicatur, et potest esse tanta, ut recte etiam dicatur aequalitas, nisi quod parens
+          tempore praecedit. Ex quo intellegitur et aequalitatem aliquando non solum similitudinem
+          habere sed etiam imaginem, quod in superiore exemplo manifestatum est. Potest etiam
+          aliquando esse similitudo et aequalitas, quamvis non sit imago, ut de ovis paribus
+          diximus. Potest et similitudo et imago esse, quamvis non sit aequalitas, ut in speculo
+          ostendimus. Potest et similitudo esse, ubi et aequalitas et imago sit, sicut de filiis
+          commemoravimus, excepto tempore quo praecedunt parentes. Sic enim aequalem syllabam
+          syllabae dicimus, quamvis altera praecedat altera subsequatur. In Deo autem quia conditio
+          temporis vacat; non enim potest recte videri Deus in tempore generasse Filium, per quem
+          condidit tempora: consequens est ut non solum imago eius sit, quia de illo est, et
+          similitudo, quia imago est , sed etiam aequalitas tanta, ut nec temporis intervallum
+          impedimento sit.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

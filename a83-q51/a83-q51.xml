@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 51</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De homine facto ad imaginem et similitudinem Dei</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q51">
+        <head xml:id="a83-q51-Hd1e102">Quaestio 51</head>
+        <head xml:id="a83-q51-Hd1e105" type="question-title">De homine facto ad imaginem et similitudinem Dei</head>
+        <p xml:id="a83-q51-d1e108">1. Cum exteriorem et interiorem hominem divina Scriptura commemoret et in tantum eos
+          discernat, ut ab Apostolo dictum sit: Et si exterior homo noster corrumpitur, sed interior
+          renovatur de die in diem , quaeri potest, utrum unus horum factus sit ad imaginem et
+          similitudinem Dei, nam illud quaerere stultum est, si unus, quis horum. Quis enim dubitat
+          eum potius qui renovatur quam eum qui corrumpitur dicere? Utrum autem ambo, magna quaestio
+          est. Nam si exterior homo est Adam et interior Christus, bene ambo intelleguntur. Sed cum
+          Adam, sicut a Deo factus est, bonus non manserit, et diligendo carnalia carnalis effectus
+          sit, non absurde videri potest, hoc ipsum ei fuisse cadere imaginem Dei et similitudinem
+          amittere. Ac per hoc ipse renovatur et ipse est etiam interior. Quomodo ergo est ipse et
+          exterior? An secundum corpus, ut interior sit secundum animam, et interioris sit
+          resurrectio et renovatio, quae nunc fit secundum mortem prioris vitae, id est, peccati, et
+          secundum regenerationem novae vitae, id est, iustitiae? Quos item duos homines sic
+          appellat, ut unum veterem, quem debemus exuere, alterum novum et eum induendum commemoret
+          . Quorum rursus illum appellat imaginem terreni hominis, quia secundum peccatum primi
+          hominis geritur, qui est Adam, alterum imaginem caelestis hominis , quia secundum
+          iustitiam secundi hominis geritur, qui est Iesus Christus. Exterior autem homo, qui nunc
+          corrumpitur, futura resurrectione renovabitur, cum istam mortem persolverit, quam naturae
+          debet, lege illa quae in paradiso per praeceptum data est.</p>
+        <p xml:id="a83-q51-d1e111">2. Quomodo autem non sit incongruum, quod dicitur etiam corpus factum ad similitudinem
+          Dei, facile intellegit qui diligenter attendit quod dictum est: Et fecit Deus omnia bona
+          valde ; nemo enim dubitat, quod sit ipse primitus bonus. Multis enim modis dici res
+          possunt similes Deo: aliae secundum virtutem et sapientiam factae, quia in ipso est virtus
+          et sapientia non facta; aliae in quantum solum vivunt, quia ille summe et primitus vivit;
+          aliae in quantum sunt, quia ille summe et primitus est. Et ideo quae tantummodo sunt, nec
+          tamen vivunt aut sapiunt, non perfecte sed exigue sunt ad similitudinem eius, quia et ipsa
+          bona sunt in ordine suo, cum sit ille supra omnia bonus, a quo bona sunt. Omnia vero quae
+          vivunt et non sapiunt, paulo amplius participant similitudinem. Quod enim vivit etiam est,
+          non autem quidquid est, etiam vivit. Iam porro quae sapiunt ita illi similitudini sunt
+          proxima, ut in creaturis nihil sit propinquius. Quod enim participat sapientiae et vivit
+          et est, quod autem vivit necesse est ut sit, non necesse est ut sapiat. Quare cum homo
+          possit particeps esse sapientiae secundum interiorem hominem, secundum ipsum ita est ad
+          imaginem, ut nulla natura interposita formetur, et ideo nihil sit Deo coniunctius. Et
+          sapit enim et vivit et est, qua creatura nihil est melius.</p>
+        <p xml:id="a83-q51-d1e114">3. Quod si exterior homo vita illa accipitur, qua per corpus sentimus quinque notissimis
+          sensibus, quos cum pecoribus habemus communes: nam et ipsa molestiis sensibilibus, quae
+          persecutionibus ingeruntur, corrumpi potest: non immerito et iste homo particeps dicitur
+          similitudinis Dei, non solum quia vivit, quod etiam in bestiis apparet, sed amplius quod
+          ad mentem convertitur se regentem, quam illustrat sapientia, quod in bestiis non potest
+          ratione carentibus. Corpus quoque hominis, quia solum inter animalium terrenorum corpora
+          non pronum in alvum prostratum est, cum sit visibile et ad intuendum caelum erectum, quod
+          est principium visibilium, quamquam non sua sed animae praesentia vivere cognoscatur,
+          tamen non modo quia est et in quantum est utique bonum est, sed etiam quia tale est, ut ad
+          contemplandum caelum sit aptius, magis ad similitudinem Dei quam cetera corpora animalium
+          factum iure videri potest. Tamen quia homo sine vita non recte appelletur, non corpus
+          solum homo exterior neque sola vita, quae in sensu est corporis, sed utrumque simul
+          rectius fortasse intellegatur.</p>
+        <p xml:id="a83-q51-d1e118">4. Neque inscite distinguitur, quod aliud sit imago et similitudo Dei, qui etiam Filius
+          dicitur, aliud ad imaginem et similitudinem Dei, sicut hominem factum accipimus. Sunt
+          etiam qui non frustra intellegant duo dicta esse ad imaginem et similitudinem, cum si una
+          res esset, unum nomen sufficere potuisse asserunt. Sed ad imaginem mentem factam volunt,
+          quae nulla interposita substantia ab ipsa veritate formatur, qui etiam spiritus dicitur:
+          non ille Spiritus Sanctus qui est eiusdem substantiae cuius Pater et Filius, sed spiritus
+          hominis. Nam ita hos discernit Apostolus: Nemo scit quid agatur in homine nisi spiritus
+          hominis, et nemo scit quid agatur in Deo nisi Spiritus Dei . Item de spiritu hominis
+          dicit: Salvum faciat spiritum vestrum et animam et corpus . Et iste enim factus est a Deo
+          sicut et cetera creatura. Scriptum est enim in Proverbiis hoc modo: Scito quoniam Dominus
+          corda omnium novit, et qui finxit spiritum omnibus, ipse scit omnia . Ergo iste spiritus
+          ad imaginem Dei nullo dubitante factus accipitur, in quo est intellegentia veritatis;
+          haeret enim veritati nulla interposita creatura. Cetera hominis ad similitudinem facta
+          videri volunt, quia omnis quidem imago similis est, non autem omne quod simile est etiam
+          imago proprie, sed forte abusive dici potest. Sed cavendum in talibus, ne quid nimis
+          asseverandum putetur, illa re sane salubriter custodita, ne, quoniam corpus quodlibet per
+          localia spatia porrectum est, aliquid tale credatur esse substantia Dei. Nam res quae in
+          parte minor est quam in toto nec dignitati animae convenit, quanto minus maiestati.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

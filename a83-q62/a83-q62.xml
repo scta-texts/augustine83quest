@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 62</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ad id quod scriptum est in Evangelio: Quod baptizabat Iesus plures quam Ioannes,
+            quamvis ipse non baptizaret sed discipuli eius 139</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q62">
+        <head xml:id="a83-q62-Hd1e102">Quaestio 62</head>
+        <head xml:id="a83-q62-Hd1e105" type="question-title">Ad id quod scriptum est in Evangelio: Quod baptizabat Iesus
+          plures quam Ioannes, quamvis ipse non baptizaret sed discipuli eius 139</head>
+        <p xml:id="a83-q62-d1e108">Quaeritur utrum qui baptizati sunt illo tempore, quo scriptum est Dominum per discipulos
+          suos baptizasse plures quam Iohannes, acceperint Spiritum Sanctum; alio enim loco
+          Evangelii sic dicitur: Spiritus enim nondum erat datus, quia Iesus nondum erat
+          clarificatus. Et facillime quidem ita respondetur, quod Dominus Iesus, qui etiam mortuos
+          suscitabat, poterat neminem illorum mori sinere, donec post eius clarificationem, id est,
+          resurrectionem a mortuis et ascensionem in caelum, acciperent Spiritum Sanctum. Sed
+          occurrit animo latro ille, cui dictum est: Amen dico tibi, hodie mecum eris in paradiso ,
+          qui nec ipsum baptismum acceperat. Quamquam Cornelius et qui cum eo ex Gentibus
+          crediderant Spiritum Sanctum etiam priusquam baptizarentur acceperint ; non tamen video
+          quomodo et ille latro sine Spiritu Sancto dicere potuerit: Domine, memento mei, cum
+          veneris in regnum tuum ; nemo enim dicit Dominus Iesus, ait Apostolus, nisi in Spiritu
+          Sancto . Cuius fidei fructum Dominus ipse monstravit dicens: Amen dico tibi, hodie mecum
+          eris in paradiso. Quomodo ergo ineffabili potestate dominantis Dei atque iustitia
+          deputatum est etiam baptismum credenti latroni, et pro accepto habitum in animo libero
+          quod in corpore crucifixo accipi non poterat, sic etiam Spiritus Sanctus latenter dabatur
+          ante Domini clarificationem; post manifestationem autem divinitatis eius manifestius datus
+          est. Et hoc dictum est: Spiritus autem nondum erat datus, id est, nondum sic apparuerat,
+          ut omnes eum datum esse faterentur, sicut etiam Dominus nondum erat clarificatus inter
+          homines, sed tamen clarificatio eius aeterna numquam esse destitit, sicut et adventus eius
+          ea ipsa dicitur demonstratio in carne mortali, nam illuc venit ubi erat, quia in sua
+          propria venit, et in hoc mundo erat, et mundus per eum factus est . Sicut ergo Domini
+          adventus intellegitur demonstratio corporalis, et tamen ante hanc demonstrationem ipse in
+          omnibus prophetis sanctis tamquam Dei Verbum et Dei Sapientia locutus est, sic et adventus
+          Spiritus Sancti demonstratio Spiritus Sancti est ipsis etiam oculis carneis, quando visus
+          est ignis divisus super eos et coeperunt linguis loqui . Nam si non erat in hominibus
+          Spiritus Sanctus ante Domini visibilem clarificationem, quomodo potuit dicere David: Et
+          Spiritum Sanctum tuum ne auferas a me ; aut quomodo impleta est Elisabeth et Zacharias vir
+          eius ut prophetarent, et Anna et Simeon, de quibus omnibus scriptum est quod impleti
+          Spiritu Sancto illa quae in Evangelio legimus dixerint? Ut autem quaedam latenter, quaedam
+          vero per visibilem creaturam visibiliter Deus operetur, pertinet ad gubernationem
+          providentiae, qua omnes divinae actiones locorum temporumque ordines distinctione
+          pulcherrima peraguntur, cum ipsa divinitas nec teneatur nec migret locis, nec tendatur
+          varieturve temporibus. Quomodo autem ipse Dominus secum habebat utique Spiritum Sanctum in
+          ipso homine quem gerebat, quando ut baptizaretur venit ad Iohannem, et tamen, posteaquam
+          baptizatus est, descendere in eum columbae specie Spiritus Sanctus visus est , sic
+          intellegendum est ante manifestum et visibilem adventum Spiritus Sancti quoscumque sanctos
+          eum latenter habere potuisse. Ita sane hoc diximus, ut intellegamus etiam ipsa visibili
+          demonstratione Spiritus Sancti, qui adventus eius dicitur, ineffabili vel etiam
+          incogitabili modo largius in hominum corda plenitudinem eius infusam.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

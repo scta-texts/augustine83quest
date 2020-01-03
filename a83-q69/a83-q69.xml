@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 69</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>De eo quod scriptum est: Tunc et ipse Filius subiectus erit ei qui illi subiecit
+            omnia 299</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q69">
+        <head xml:id="a83-q69-Hd1e102">Quaestio 69</head>
+        <head xml:id="a83-q69-Hd1e105" type="question-title">De eo quod scriptum est: Tunc et ipse Filius subiectus erit ei
+          qui illi subiecit omnia 299</head>
+        <p xml:id="a83-q69-d1e108">1. Qui Filium Dei Patri aequalem non esse contendunt, solent usurpare familiarius hoc
+          testimonium, ubi ait Apostolus: Cum autem ei omnia subiecta fuerint, tunc et ipse Filius
+          subiectus erit ei qui illi subiecit omnia, ut sit Deus omnia in omnibus. Non enim posset
+          eis error oboriri palliatus nomine christiano nisi de Scripturis non intellectis; dicunt
+          enim: Si aequalis est, quomodo subiectus erit? Quod utique simile est illi evangelicae
+          quaestioni: Si aequalis est, quomodo maior est Pater? Ipse enim Dominus ait: Quoniam Pater
+          maior me est . Regula autem catholicae fidei sic se habet, ut cum aliqua in Scriptura
+          dicuntur de Filio quod minor sit Patre, secundum susceptionem hominis intellegantur, cum
+          vero ea dicuntur quibus demonstratur aequalis, secundum id quod Deus est accipiantur.
+          Apparet ergo quemadmodum dictum sit et: Pater maior me est, et: Ego et Pater unum sumus ;
+          et: Deus erat Verbum, et: Verbum caro factum est, et: Non rapinam arbitratus est esse
+          aequalis Deo, et: Semet ipsum exinanivit formam servi accipiens . Sed quoniam multa etiam
+          secundum proprietatem personae, excepto quod attinet ad susceptionem hominis, de illo ita
+          dicuntur, ut Patrem non aliud quam Patrem et Filium non aliud quam Filium intellegi
+          oporteat, putant haeretici in his quae ita dicuntur atque intelleguntur aequalitatem esse
+          non posse. Scriptum est enim: Omnia per ipsum facta sunt , utique per Filium, hoc est per
+          Verbum Dei, a quo, nisi a Patre?Nusquam autem scriptum est quod Filius per Patrem aliquam
+          creaturam operatus sit. Item scriptum est quod imago Patris sit Filius ; nusquam autem
+          scriptum est quod imago Filii sit Pater; deinde quod ille genitor ille genitus et cetera
+          huiusmodi, quae non ad inaequalitatem substantiae, sed ad proprietatem pertinent
+          personarum, in quibus illi, aequalitatem cum dicunt esse non posse, quoniam ad haec
+          penetranda grossiores mentes adhibent, pondere auctoritatis urgendi sunt. Si enim non
+          posset in his intellegi aequalitas eius per quem facta sunt omnia et eius a quo facta
+          sunt, imaginis et eius cuius imago est, geniti et genitoris, nullo modo Apostolus
+          contentiosorum hominum ora concludens ipsum etiam verbum poneret dicens: Non rapinam
+          arbitratus est esse aequalis Deo .</p>
+        <p xml:id="a83-q69-d1e111">2. Cum ergo ea quae ad distinctionem Patris et Filii scripta sunt, partim propter
+          personarum proprietates, partim propter susceptionem hominis ita scripta sunt, dum tamen
+          divinae substantiae Patris et Filii deitas et unitas et aequalitas maneat, recte quaeritur
+          hoc loco, utrum secundum personarum proprietates an secundum hominis susceptionem
+          Apostolus dixerit: Tunc et ipse Filius subiectus erit ei qui illi subiecit omnia . Solet
+          circumstantia Scripturae illuminare sententiam, cum ea quae circa scripta sunt praesentem
+          quaestionem contingentia diligenti discussione tractantur. Invenimus itaque ita ventum
+          esse ad hunc locum, ut supra diceret: Nunc autem Christus resurrexit a mortuis primitiae
+          dormientium ; agebat enim de resurrectione mortuorum. Quod in Domino secundum susceptionem
+          hominis factum est; quamquam apertissime sequatur et dicat: Quoniam quidem per hominem
+          mors, et per hominem resurrectio mortuorum. Sicut enim in Adam omnes moriuntur, sic et in
+          Christo omnes vivificabuntur. Unusquisque autem in suo ordine: initium Christus. Deinde ii
+          qui sunt Christi, in praesentia (parusia) eius. Deinde finis, cum tradiderit regnum Deo et
+          Patri, cum evacuaverit omnem principatum et omnem potestatem et virtutem. Oportet enim
+          illum regnare, donec ponat omnes inimicos suos sub pedibus suis. Novissima inimica
+          destruetur mors. Omnia enim subiecit sub pedibus eius. Cum autem dixerit quia omnia
+          subiecta sunt, manifestum est quia praeter eum qui subiecit illi omnia. Cum autem ei omnia
+          subiecta fuerint, tunc et ipse Filius subiectus erit ei qui illi subiecit omnia, ut sit
+          Deus omnia in omnibus . Manifestum est ergo hoc secundum susceptionem hominis dictum.</p>
+        <p xml:id="a83-q69-d1e114">3. Sed alia in hoc capitulo, cuius totum textum commemoravi, solent habere quaestionem:
+          primo quod dictum est: Cum tradiderit regnum Deo et Patri, quasi nunc non teneat regnum
+          Pater. Deinde quod dictum est: Oportet enim illum regnare, donec ponat omnes inimicos suos
+          sub pedibus suis, quasi postea non sit regnaturus, et ad hoc valeat quod supra dictum est:
+          Deinde finis. Quod sacrilega opinione sic accipiunt, quasi finem dixerit consummationem
+          regni eius, cum in Evangelio scriptum sit: Et regni eius non erit finis . Postremo quod
+          dictum est: Cum autem ei omnia subiecta fuerint, tunc et ipse Filius subiectus erit ei qui
+          illi subiecit omnia, sic volunt intellegi, quasi nunc aut aliquid Filio non sit subiectum
+          aut Patri non sit ipse subiectus.</p>
+        <p xml:id="a83-q69-d1e118">4. Genere igitur locutionis solvitur quaestio. Sic enim plerumque Scriptura loquitur, ut
+          quod semper est tunc fieri dicatur in aliquo, cum ab eo cognosci coeperit. Ita enim
+          dicimus oratione: Sanctificetur nomen tuum , quasi aliquando sanctum non sit. Ergo sicut
+          sanctificetur est sanctum esse innotescat, ita quoque: Cum tradiderit regnum Deo et Patri,
+          id est: cum Patrem regnare monstraverit, ut per speciem manifestationemque clarescat quod
+          nunc a fidelibus creditur et ab infidelibus non putatur. Evacuabit autem omnem principatum
+          et potestatem manifestando utique regnum Patris, ut omnibus notum sit nullum principum et
+          potestatum sive caelestium sive terrestrium per se habuisse aliquid principatus et
+          potestatis, sed ab illo ex quo sunt omnia, non solum ut sint, verum etiam ut ordinata
+          sint. In illa enim manifestatione nulli spes aliqua remanebit in quoquam principe aut in
+          quoquam homine. Quod etiam nunc prophetice canitur: Bonum est sperare in Domino, quam
+          sperare in homine; bonum est sperare in Domino, quam sperare in principibus, ut ista
+          meditatione anima iam in regnum Patris assurgat, nec cuiusquam potestatem praeter illum
+          magni faciens, nec sua sibi ipsa perniciosissime blandiens. Tradet ergo regnum Deo et
+          Patri, cum per illum per speciem cognoscetur Pater. Regnum enim eius sunt in quibus nunc
+          regnat per fidem. Aliter enim dicitur regnum Christi secundum potestatem divinitatis, quod
+          ei cuncta creatura subiecta est, et aliter regnum eius dicitur Ecclesia, secundum
+          proprietatem fidei quae in illo est, secundum quod orat qui dicit: Posside nos . Neque
+          enim non ipse possidet omnia; secundum quod dicitur etiam illud: Cum servi essetis
+          peccati, liberi eratis iustitiae . Evacuabit ergo omnem principatum et omnem potestatem et
+          virtutem, ut nulli Patrem intuenti per Filium opus sit aut libeat in cuiusquam creaturae
+          vel in sua conquiescere potestate.</p>
+        <p xml:id="a83-q69-d1e121">5. Oportet enim eum regnare, donec ponat omnes inimicos suos sub pedibus suis , id est,
+          oportet regnum eius in tantum manifestari, donec omnes inimici eius ipsum regnare
+          fateantur; hoc enim intellegitur sub pedibus eius futuros inimicos. Quod si de iustis
+          acceperimus, ideo dictum est inimicos, quia ex iniustis iustificantur et ei credendo
+          subduntur. De iniustis autem, qui ad iustorum beatitudinem futuram non pertinent, sic
+          accipiendum est, quoniam et ipsi eum regnare ipsa regni eius manifestatione confusi
+          fatebuntur. Ergo: Oportet eum regnare, donec ponat omnes inimicos suos sub pedibus suis,
+          non ita dictum est, quasi cum posuerit inimicos sub pedibus suis, non sit postea
+          regnaturus, sed: Oportet eum regnare, donec ponat omnes inimicos suos sub pedibus suis,
+          oportet eum, inquit, ad tantam evidentiam regnum suum perducere, donec inimici eius nullo
+          modo audeant negare quod regnet. Nam scriptum est etiam: Oculi nostri ad Dominum Deum
+          nostrum, donec misereatur nostri ; nec ideo tamen, cum misertus nostri fuerit, oculos ab
+          eo debemus avertere; in tantum enim est beatitudo nostra, in quantum eius contemplatione
+          perfruimur. Sic ergo et hoc dictum est. Oculorum nostrorum intentio ad Dominum non
+          porrigitur nisi usque ad impetrationem misericordiae ipsius, non ut postea inde avertatur,
+          sed ut nihil inde amplius requirat. Donec ergo pro eo positum est, ut non amplius
+          intellegas. Quo enim amplius, id est, usque ad quam maiorem manifestationem manifestabitur
+          regnum Christi, nisi quousque omnes inimici eum regnare fateantur? Aliud est ergo non
+          amplius manifestari, aliud non amplius permanere. Non amplius manifestari est non fieri
+          manifestius; non amplius permanere non fieri perseverantius. Quando autem manifestius erit
+          regnum Christi, quam cum omnibus claruerit inimicis?</p>
+        <p xml:id="a83-q69-d1e124">6. Novissima inimica destruetur mors . Non enim erit aliud quod destruatur, posteaquam
+          mortale hoc induerit immortalitatem. Omnia enim subiecit sub pedibus eius: hoc est, ut
+          etiam mortem destruat. Cum autem dixerit quia omnia subiecta sunt (dixit hoc utique
+          propheta in Psalmis ), manifestum est quia praeter eum qui subiecit illi omnia: Patrem
+          vult intellegi omnia Filio subiecisse, sicut multis locis idem Dominus in Evangelio
+          commendat et praedicat, non solum propter formam servi, sed etiam propter principium de
+          quo est et de quo aequalis est ei de quo est. Amat enim ad unum principium referre omnia
+          tamquam imago eius , sed in quo inhabitat omnis plenitudo divinitatis .</p>
+        <p xml:id="a83-q69-d1e127">7. Cum autem ei omnia subiecta fuerint, tunc et ipse Filius subiectus erit ei qui illi
+          subiecit omnia . Non quasi modo non ita sit, sed tunc manifestum erit, secundum locutionem
+          superius tractatam, ut sit Deus omnia in omnibus. Ipse est finis, quem supra commemoravit,
+          cum totum primo breviter vellet concludere. Deinde quasi membratim explicare et exponere;
+          loquebatur enim de resurrectione ubi ait: Initium Christus; deinde ii qui sunt Christi in
+          praesentia eius; deinde finis. Ipse scilicet finis est, ut sit Deus omnia in omnibus.
+          Aliter enim dicitur finis qui pertinet ad consummationem, aliter qui pertinet ad
+          consumptionem; aliter enim tunica finitur texendo, aliter cibus comedendo. Deus autem
+          omnia in omnibus dicitur, ut nemo eorum qui ei cohaerent amet adversus eum suam propriam
+          voluntatem, manifestumque sit omnibus quod idem Apostolus alio loco dicit: Quid autem
+          habes quod non accepisti? </p>
+        <p xml:id="a83-q69-d1e130">8. Sunt item qui sic intellegant hunc locum: Oportet eum regnare, donec ponat omnes
+          inimicos suos sub pedibus suis, ut sub alia significatione positum hic dicant regnare, non
+          sub ea qua positum est regnum, de quo ait: Cum tradiderit regnum Deo et Patri, ut illud
+          sic appellaverit regnum, quo universam creaturam Deus regit; hoc autem sic appellaverit
+          regnare, ut intellegatur tamquam adversus hostem exercitum ducere vel defendere civitatem,
+          ut ideo dixerit: Oportet eum regnare, donec ponat omnes inimicos suos sub pedibus suis,
+          quia talis regni, quale habent principes armatorum, nulla erit causa hoste ita subiecto,
+          ut rebellare non possit. Nam utique dictum est in Evangelio: Et regni eius non erit finis
+          , secundum quod regnat in aeternum; secundum autem id quod adversus diabolum sub eo
+          militatur, tamdiu erit utique ista militia, donec ponat omnes inimicos suos sub pedibus
+          suis; postea vero non erit, cum pace perpetua perfruemur.</p>
+        <p xml:id="a83-q69-d1e133">9. Haec autem ita dicta sunt, ut noverimus diligentius etiam illud considerari oportere,
+          secundum quid regnet nunc Dominus dispensatione sacramenti sui per incarnationem atque
+          passionem. Nam secundum id, quod Verbum Dei est, tam sine fine quam sine initio et sine
+          intermissione est regnum eius; secundum id autem quod Verbum caro factum est , coepit
+          regnare in credentibus per fidem incarnationis suae. Unde est etiam illud: Dominus
+          regnavit a ligno . Hinc autem evacuavit omnem principatum et omnem potestatem et virtutem,
+          dum non per claritatem eius, sed per humilitatem salvi fiunt credentes in eum. Hoc est
+          absconditum a sapientibus et prudentibus et revelatum parvulis , quoniam placuit Deo per
+          stultitiam praedicationis salvos facere credentes. Neque quidquam se inter parvulos scire
+          dicit Apostolus nisi Christum Iesum, et hunc crucifixum . Qua praedicatione tamdiu opus
+          est, donec ponantur omnes inimici sub pedibus eius, id est, ipsi humilitati eius, quam
+          pedum nomine significari arbitror, cedat atque subdatur omnis superbia saecularis, sicut
+          ex maxima parte iam factum est et cotidie fieri videmus. Sed quo fine ista fiunt? Ut
+          tradat regnum Deo et Patri, id est, ut nutritos fide incarnationis suae perducat ad
+          speciem, qua aequalis est Patri. Iam enim eis qui crediderant loquebatur, cum diceret: Si
+          manseritis in verbo meo, vere discipuli mei estis, et cognoscetis veritatem, et veritas
+          liberabit vos . Regnum enim tradet Patri, cum per id regnabit in contemplantibus
+          veritatem, quo aequalis est Patri, et per se unigenitum per speciem faciet videri Patrem;
+          nunc enim per hoc regnat in credentibus, quo se ipsum exinanivit, formam servi accipiens .
+          Tunc autem tradet regnum Deo et Patri, cum evacuaverit omnem principatum et potestatem et
+          virtutem. Unde evacuabit nisi humilitate, patientia et infirmitate? Quis enim principatus
+          non evacuetur, cum Filius Dei propterea regnat in credentibus, quia eum principes saeculi
+          iudicaverunt? Quae potestas non evacuetur, cum ille per quem facta sunt omnia propterea
+          regnat in credentibus, quia ita subiectus est potestatibus, ut diceret homini: Non haberes
+          in me potestatem, nisi data tibi esset desuper ? Quae virtus non evacuetur, cum ipse per
+          quem caeli solidati sunt, ideo regnat in credentibus, quia usque ad crucem mortemque
+          infirmatus est? Hoc autem modo Filius proprie regnat in fide credentium. Non enim Pater
+          dici aut credi potest vel incarnatus vel iudicatus vel crucifixus. Per speciem autem, qua
+          aequalis est Patri, cum Patre regnat in contemplantibus veritatem. Quod autem tradet
+          regnum Deo et Patri, a fide incarnationis suae ad speciem deitatis perducens eos qui sibi
+          nunc credunt, non ipse amittet, sed uterque se unum ad fruendum contemplantibus praebebit.
+          Tamdiu autem opus est ut in hominibus nondum valentibus aequalitatem Patris et Filii
+          perspicua mentis luce contueri, per hoc regnet Christus, quod tales capere possunt, et
+          quod proprie ipse suscepit, id est, incarnationis humilitatem, donec ponat omnes inimicos
+          sub pedibus suis, id est, donec omnis superbia saecularis incarnationis eius humilitati
+          subdatur.</p>
+        <p xml:id="a83-q69-d1e137">10. Sane quod dictum est: Tunc et ipse Filius subiectus erit ei qui illi subiecit omnia ,
+          quamvis secundum susceptionem hominis dicatur, quia inde quaestio nata est, cum ageret de
+          resurrectione mortuorum, tamen recte quaeritur, utrum secundum ipsum tantum dictum sit,
+          quod est caput Ecclesiae , an secundum universum Christum, adnumerato corpore eius et
+          membris. Cum enim ait ad Galatas: Non dicit: Et seminibus, tamquam in multis, sed tamquam
+          in uno: Et semini tuo, quod est Christus, ne ipsum solum hoc loco intellegeremus Christum,
+          qui de Maria virgine natus est, postea dicit: Omnes enim vos unum estis in Christo Iesu.
+          Si autem vos Christi, ergo Abrahae semen estis . Et ad Corinthios cum de caritate diceret,
+          de membris corporis similitudinem ducens: Sicut enim corpus unum est, inquit, et membra
+          habet multa, omnia autem membra corporis, cum sint multa, unum est corpus, ita et Christus
+          ; non dixit: ita et Christi, sed: ita et Christus, ostendens Christum recte appellari
+          etiam universum, hoc est caput cum corpore suo, quod est Ecclesia. Et multis Scripturarum
+          locis invenimus Christum etiam hoc modo appellari, ut cum omnibus suis membris
+          intellegatur, quibus dictum est: Vos estis corpus Christi et membra . Non ergo absurde sic
+          intellegimus: Tunc et ipse Filius subiectus erit ei qui illi subiecit omnia, ut Filium non
+          solum caput Ecclesiae, sed omnes cum eo sanctos intellegamus, qui sunt unum in Christo,
+          unum semen Abrahae, subiectum autem secundum contemplationem sempiternae veritatis ad
+          obtinendam beatitudinem, nullo motu animi, nulla parte corporis resistente, ut in illa
+          vita nemine amante propriam potestatem sit Deus omnia in omnibus.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9</title>
+        <author ref="#Augustine">Augustinus</author>
+        <editor/>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Utrum corporis sensibus percipi veritas possit</title>
+          <date when="2020-01-03">January 03, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- augustine confessions, initially derived from Patrialogia DE DIVERSIS QUAESTIONIBUS OCTOGINTA TRIBUS S. Aurelii Augustini OPERA OMNIA - editio latina > PL 40 > De diversis quaestionibus octoginta tribus see http://www.augustinus.it/latino/ottantatre_questioni/index.htm -->
+        <listWit>
+          <witness/>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-01-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="a83-q9">
+        <head xml:id="a83-q9-Hd1e102">Quaestio 9</head>
+        <head xml:id="a83-q9-Hd1e105" type="question-title">Utrum corporis sensibus percipi veritas possit</head>
+        <p xml:id="a83-q9-d1e108">Omne quod corporeus sensus attingit, quod et sensibile dicitur, sine ulla intermissione
+          temporis commutatur; velut cum capilli capitis nostri crescunt, vel corpus vergit in
+          senectutem aut in iuventutem efflorescit, perpetuo id fit nec omnino intermittit fieri.
+          Quod autem non manet, percipi non potest; illud enim percipitur quod scientia
+          comprehenditur; comprehendi autem non potest quod sine intermissione mutatur. Non est
+          igitur exspectanda sinceritas veritatis a sensibus corporis. Sed ne quis dicat esse aliqua
+          sensibilia eodem modo semper manentia, et quaestionem nobis de sole atque stellis afferat,
+          in quibus facile convinci non potest; illud certe nemo est qui non cogatur fateri, nihil
+          esse sensibile quod non habeat simile falso, ita ut internosci non possit. Nam ut alia
+          praetermittam, omnia quae per corpus sentimus, etiam cum ea non adsunt sensibus, imagines
+          tamen eorum patimur, tamquam prorsus adsint vel in somno vel in furore, quod cum patimur,
+          omnino utrum ea ipsis sensibus sentiamus aut imagines sensibilium sint, discernere non
+          valemus. Si igitur sunt imagines sensibilium falsae, quae discerni ipsis sensibus
+          nequeunt, et nihil percipi potest nisi quod a falso discernitur, non est constitutum
+          iudicium veritatis in sensibus. Quamobrem saluberrime admonemur averti ab hoc mundo, qui
+          profecto corporeus est et sensibilis, et ad Deum, id est, veritatem quae intellectu et
+          interiore mente capitur, quae semper manet et eiusdem modi est, quae non habet imaginem
+          falsi, a qua discerni non possit, tota alacritate converti.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
